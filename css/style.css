@@ -1,0 +1,74 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+#branding_hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid orange;
+    margin-left: 47%;
+    width: 5%;
+}
+
+#lenses_hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid orange;
+    width: 10%;
+}
+
+ ul li a {
+ 	padding:0;
+ 	margin:0; 
+ 	color:white;
+ 	padding-right:4em;
+ 	font-size: 0.9em;
+ }
+  ul li span{
+ 	display: block; height: 100%;width: 100%;
+ }
+ ul li a:hover {
+ 	color: orange;
+ }
+ ul li span:hover {
+ 	border-top:  1px solid orange;
+ }
+
+*{padding:0; margin:0;font-family: 'Roboto', sans-serif; }
+
+.icon-block {
+  padding: 0 0px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+#index-banner{
+	background-image: url('../first.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    min-height: 90vh;
+}
+
+.row .col{
+    padding: 0 !important;
+}
+
+@media only screen and (max-width: 995px)
+nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+    height: 64px;
+    line-height: 64px;
+}
+
+
+
