@@ -1,29 +1,554 @@
 /* Custom Stylesheet */
 /**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
+ * orange: #F3B315   black:#1D1D1D    white:#EDEDED
  */
 
+*{padding:0; margin:0;font-family: 'Roboto', sans-serif; }
 
+
+
+/* ************************************************************************************** /*
+/*text*/
+#lorem_ipsum1{
+	padding-right: 3em;
+}
+#para1{
+	padding-right: 3em;
+}
+#seiko_lenses_2nd_text{
+	margin-bottom: 2.2em; 
+}
+#para2{
+	padding-right: 3em;
+}
+
+/*small*/
+@media only screen and (min-width: 0px){
+#para3{
+	padding: 1em; padding-left: 4em;
+}
+#para4{
+	padding: 1em; padding-left: 4em;
+}
+#para5{
+	padding: 1em; padding-left: 4em;
+}
+#para1{
+	padding-right: 3em;
+}
+}
+
+/*medium*/
+@media only screen and (min-width: 601px){
+#para3{
+	padding: 1em; 
+}
+#para4{
+	padding: 1em;
+}
+#para5{
+	padding: 1em;
+}
+#para1{
+	padding-right: 0em;
+}
+}
+
+/*large*/
+@media only screen and (min-width: 993px){
+#para3{
+	padding: 1em;
+}
+#para4{
+	padding: 1em;
+}
+#para5{
+	padding: 1em;
+}
+#para1{
+	padding-right: 3em;
+}
+}
+
+
+
+
+
+
+#find_text{
+	margin-bottom: 2.2em; 
+}
+#para6{
+	padding-right: 3em;
+}
+#para7{
+	padding-right: 3em;
+}
+#america_text{
+    position: relative; top:-120px;
+}
+#emea_text{
+	position: relative; top:-120px;
+}
+#asia_text{
+	position: relative; top:-120px;
+}
+#america_number{
+	color:#F3B315;font-size:2em;
+}
+#america_under_text{
+	font-weight: bold;
+}
+#emea_number{
+	color:orange;font-size:2em;
+}
+#emea_under_text{
+	font-weight: bold;
+}
+#asia_number{
+	color:#F3B315;font-size:2em;
+}
+#asia_under_text{
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ************************************************************************************** /*
+/*Headings*/
+
+#big_logo_header{
+	font-size:4em; margin-right: 0.4em;
+}
+#second_logo_text{
+    display:inline-block; vertical-align: middle; margin-bottom:2em;
+}
+
+#header_black_orange_border{
+	background-color: black; height: 10vh; color:white; padding:0; margin:0; border-bottom:1px solid #F3B315;
+}
+/*small*/
+@media only screen and (min-width: 0px){
+	#headline{
+	  color:white;position: absolute; top: 15vh; left: -30vw;
+
+	}
+	#firstquote{
+		position: relative;
+		left:-40px;
+		font-size: 2em;
+		color:orange;
+		display:inline-block;
+	}
+	#see_it{
+		position: relative;
+		left:-40px;
+		display:inline-block;
+		font-size: 2em; 
+	}
+	#precisely{
+		font-size:0.5em;
+		display:inline-block;
+		font-size: 2em;
+	}
+	#secondquote{
+		position: relative;
+		left:0px; 
+		top:13px;
+		color:#F3B315;
+		display:inline-block;
+		font-size: 2em;
+	}
+}
+
+/*medium*/
+@media only screen and (min-width: 601px){
+	#headline{
+	  color:white;position: absolute; top: 17vh; left: 0;
+
+	}
+	#firstquote{
+		position: relative;
+		left:-15px;
+		font-size: 2em;
+		color:orange;
+		display:inline-block;
+	}
+	#see_it{
+		position: relative;
+		left:-15px;
+		display:inline-block;
+		font-size: 2em; 
+	}
+	#precisely{
+		font-size:0.5em;
+		display:inline-block;
+		font-size: 2em;
+	}
+	#secondquote{
+		position: relative;
+		left:0px; 
+		top:13px;
+		color:#F3B315;
+		display:inline-block;
+		font-size: 2em;
+	}
+}
+
+/*large*/
+@media only screen and (min-width: 993px){
+	#headline{
+	  color:white;position: absolute; top: 45vh; left: 0;
+
+	}
+	#firstquote{
+		position: relative;
+		left:-15px;
+		font-size: 4em;
+		color:orange;
+		display:inline-block;
+	}
+	#see_it{
+		position: relative;
+		left:-15px;
+		display:inline-block;
+		font-size: 4em; 
+	}
+	#precisely{
+		font-size:0.5em;
+		display:inline-block;
+		font-size: 4em;
+	}
+	#secondquote{
+		position: relative;
+		left:0px; 
+		top:13px;
+		color:#F3B315;
+		display:inline-block;
+		font-size: 4em;
+	}
+}
+
+
+
+
+#seikobrand_heading{
+	color:#F3B315;display:inline-block; padding-bottom:0.5em; font-size:2.5em;
+}
+#below_seikobrand_heading{
+	margin-bottom: 2.2em; 
+}
+#second_heading_seiko{
+	font-size:1.2em; 
+}
+#what{
+	font-size:1.9em; border-bottom: 1px solid orange; 
+}
+#isprecision{
+	font-size:1.9em;
+}
+#frames_lenses_heading{
+	color:#F3B315;display:inline-block; padding-bottom:0.5em; font-size:2.5em;
+}
+#seiko_frames_heading{
+	color:#F3B315;display:inline-block; padding-bottom:0.5em; font-size:2.5em;
+}
+#seiko_frames_second_heading{
+	margin-bottom: 2.2em;
+}
+#glasses_titanium_heading{
+	display: inline-block;vertical-align: middle;margin-top: 2em;
+}
+#glasses_curved_heading{
+	display: inline-block;vertical-align: middle;margin-top: 2em;
+}
+
+
+
+#inside_titanium{
+	color:#F3B315;font-size:2em;
+}
+#inside_curved{
+	color:#F3B315;font-size:2em;
+}
+#inside_starvision{
+	color:#F3B315;font-size:2em;
+}
+#inside_s2{
+	color:#F3B315;font-size:2em;
+}
+
+
+/*small*/
+@media only screen and (min-width: 0px){
+#inside_titanium{
+	color:#F3B315;font-size:1em;
+}
+#inside_curved{
+	color:#F3B315;font-size:1em;
+}
+#inside_starvision{
+	color:#F3B315;font-size:1em;
+}
+#inside_s2{
+	color:#F3B315;font-size:1em;
+}
+}
+
+/*medium*/
+@media only screen and (min-width: 601px){
+#inside_titanium{
+	color:#F3B315;font-size:2em;
+}
+#inside_curved{
+	color:#F3B315;font-size:2em;
+}
+#inside_starvision{
+	color:#F3B315;font-size:2em;
+}
+#inside_s2{
+	color:#F3B315;font-size:2em;
+}
+}
+
+/*large*/
+@media only screen and (min-width: 993px){
+#inside_titanium{
+	color:#F3B315;font-size:2em;
+}
+#inside_curved{
+	color:#F3B315;font-size:2em;
+}
+#inside_starvision{
+	color:#F3B315;font-size:2em;
+}
+#inside_s2{
+	color:#F3B315;font-size:2em;
+}
+}
+
+
+#glasses_starvision_heading{
+	display: inline-block;vertical-align: middle;margin-top: 2em;
+}
+#glasses_s2_heading{
+	display: inline-block;vertical-align: middle;margin-top: 2em;
+}
+#seiko_lenses_heading{
+	color:#F3B315;display:inline-block; padding-bottom:0.5em; font-size:2.5em;
+}
+#lens1_heading{
+	padding-left:1em; color:#F3B315;display:inline-block;font-size:1em;
+}
+#lens2_heading{
+	padding-left:1em; color:#F3B315;display:inline-block;font-size:1em;
+}
+#lens3_heading{
+	padding-left:1em; color:#F3B315;display:inline-block;font-size:1em;
+}
+#select_country_heading{
+	color:#F3B315;display:inline-block; padding-bottom:0.5em; font-size:2.5em;
+}
+#find_opt_heading{
+	color:#F3B315;display:inline-block; padding-bottom:0.5em; font-size:2.5em;
+}
+#find_americas_heading{
+	font-weight: bold;
+}
+#find_asia_heading{
+	font-weight: bold;
+}
+#find_emea_heading{
+	font-weight: bold;
+}
+#help_how_heading{
+	font-size:1.9em; border-bottom: 1px solid #F3B315;color:#F3B315; 
+}
+#help_can{
+	font-size:1.9em; color:#F3B315;
+}
+#footer_heading1{
+	color:white;display:inline-block; padding-bottom:0.5em; font-size:2.5em;
+}
+#footer_heading2{
+	color:white;display:inline-block; padding-bottom:0.5em; font-size:1em;
+}
+.footer_span_headings{
+	font-weight:bold; color:white;
+}
+
+
+
+
+
+
+
+/* ************************************************************************************** /*
+/*section containers*/
+#seiko_brand{
+width:100vw;
+}
+#frames_lenses{
+	width:100vw;  background-color:lightgrey;
+}
+#seiko_lenses{
+	width:100vw; background-color:lightgrey;
+}
+#country_select{
+	width:100vw; margin: 0; background-color:black;
+}
+#find_optician{
+	width:100vw;
+}
+#find_country_opt{
+	width:100vw;
+}
+#help_container{
+	width:100vw; background-color:lightgrey
+}
+#footer{
+	width:100vw; margin: 0; background-color:black;
+}
+
+
+
+
+
+
+
+/* ************************************************************************************** /*
+/*buttons*/
+
+/*small*/
+@media only screen and (min-width: 0px){
+	#frames_lenses_button{
+	background-color:#F3B315;
+	font-size: 0.7em;
+	min-height: 30px;
+	padding-top: 0em; 
+	padding-bottom: 0em; 
+	padding-left: 2em; 
+	padding-right:2em;
+	margin: 0;
+	border:none
+	}
+}
+
+/*medium*/
+@media only screen and (min-width: 601px){
+	#frames_lenses_button{
+	background-color:#F3B315;
+	font-size: 1em;
+	padding-top: 0.5em; 
+	padding-bottom: 0.5em; 
+	padding-left: 1em; 
+	padding-right:1em;
+	border:none
+	}
+}
+
+/*large*/
+@media only screen and (min-width: 993px){
+#frames_lenses_button{
+	background-color:#F3B315;
+	font-size: 1em;
+	padding-top: 0.5em; 
+	padding-bottom: 0.5em; 
+	padding-left: 1em; 
+	padding-right:1em;
+	border:none
+	}
+}
+
+
+
+#find_optician1{
+	background-color:#F3B315; font-size: 1em;padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 1em; padding-right:1em;border:none
+}
+#find_optician2{
+	background-color:#F3B315; font-size: 1em;padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 1em; padding-right:1em;border:none
+}
+#find_america{
+	font-size: 1em;padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 1em; padding-right:1em;border:1px solid #F3B315;
+}
+#find_emea{
+	font-size: 1em;padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 1em; padding-right:1em;border:1px solid #F3B315
+}
+#find_asia{
+	font-size: 1em;padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 1em; padding-right:1em;border:1px solid #F3B315
+}
+
+
+
+
+
+/* ************************************************************************************** /*
+/*underlines*/
 #branding_hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid orange;
+    border-top: 1px solid #F3B315;
     margin-left: 47%;
     width: 5%;
 }
-
 #lenses_hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid orange;
+    border-top: 1px solid #F3B315;
     width: 10%;
 }
 
+
+
+
+
+
+/* ************************************************************************************** /*
+/*nav*/
+
+
+/*small*/
+@media only screen and (min-width: 0px){
+	#nav_desk{
+	background-color: rgba(128, 128, 128, 0.1);padding:0; margin:0; max-height: 64px;z-index: 10; 
+	position: absolute; top: 0vh; left: 0;
+	}
+}
+/*medium*/
+@media only screen and (min-width: 601px){
+	#nav_desk{
+	background-color: rgba(128, 128, 128, 0.1);padding:0; margin:0; max-height: 64px;z-index: 10; 
+	position: absolute; top: 0vh; left: 0;
+	}
+}
+/*large*/
+@media only screen and (min-width: 993px){
+	#nav_desk{
+	background-color: rgba(128, 128, 128, 0.1);padding:0; margin:0; max-height: 40px;z-index: 10; 
+	position: absolute; top: 0vh; left: 0;
+	}
+}
+
+
+
+
+
+/* ************************************************************************************** /*
+/*Lists*/
  ul li a {
  	padding:0;
  	margin:0; 
@@ -35,33 +560,232 @@
  	display: block; height: 100%;width: 100%;
  }
  ul li a:hover {
- 	color: orange;
+ 	color: #F3B315;
  }
  ul li span:hover {
- 	border-top:  1px solid orange;
+ 	border-top:  1px solid #F3B315;
  }
-
-*{padding:0; margin:0;font-family: 'Roboto', sans-serif; }
-
-.icon-block {
-  padding: 0 0px;
+ #menu_list{
+ 	line-height:2.5em;
+ }
+#countrylist1{
+	color:white; margin-left:3em;
 }
-.icon-block .material-icons {
-	font-size: inherit;
+#UL_HEADING1{
+	font-weight:bold
+}
+#UL_HEADING2{
+	font-weight:bold
+}
+#UL_HEADING3{
+	font-weight:bold
 }
 
-#index-banner{
-	background-image: url('../first.jpg');
-    background-size: 100% auto;
+
+
+
+
+
+
+
+
+/* ************************************************************************************** /*
+/* full size image*/
+
+
+/*small*/
+@media only screen and (min-width: 0px){
+	#index-banner{
+	background-image: url('../media/first.jpg');
+	background-size: contain;
     background-repeat: no-repeat;
-    width: 100vw;
+
+   	height: 30em;
+   	max-width: 100%;
+    min-width: 500px;
+
+	padding:0; 
     margin: 0;
-    padding: 0;
-    min-height: 90vh;
+
+    position: relative; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+}
+/*medium*/
+@media only screen and (min-width: 601px){
+	#index-banner{
+	background-image: url('../media/first.jpg');
+	background-size: contain;
+    background-repeat: no-repeat;
+
+   	height: 50em;
+   	max-width: 100%;
+   	
+	padding:0; 
+    margin: 0;
+
+    position: relative; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+}
+/*large*/
+@media only screen and (min-width: 993px){
+	#index-banner{
+	background-image: url('../media/first.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+
+   	width: 100vw;
+   	height: 100vh;
+
+	padding:0; 
+    margin: 0;
+
+    position: relative; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
 }
 
+
+
+
+
+
+/* ************************************************************************************** /*
+/*small images*/
+
+/*small*/
+@media only screen and (min-width: 0px){
+#brandimages1{
+	max-width:200px;padding:0.5em; margin:0,5em;
+}
+#brandimages2{
+	max-width:200px;padding:0.5em; margin:0,5em;
+}
+#brandimages3{
+	max-width:200px;padding:0.5em; margin:0,5em;
+}
+.row .col.s12 {
+    text-align: center;
+}
+/*medium*/
+@media only screen and (min-width: 601px){
+#brandimages1{
+	max-width:200px;padding:0.5em; margin:0,5em;
+}
+#brandimages2{
+	max-width:200px;padding:0.5em; margin:0,5em;
+}
+#brandimages3{
+	max-width:200px;padding:0.5em; margin:0,5em;
+}
+.row .col.m4 {
+    text-align: center;
+}
+}
+/*large*/
+@media only screen and (min-width: 993px){
+#brandimages1{
+	max-width:250px;padding:0.5em; margin:0,5em;
+}
+#brandimages2{
+	max-width:250px;padding:0.5em; margin:0,5em;
+}
+#brandimages3{
+	max-width:250px;padding:0.5em; margin:0,5em;
+}
+.row .col.l3 {
+    text-align: right;
+}
+}
+
+#reading_image{
+	max-width: 90%;max-height: 90%;padding:0.5em; margin:0,5em;
+}
+#glasses1{
+	max-width: 90%;padding:0.5em; margin:0,5em;
+}
+#glasses2{
+	max-width: 90%;padding:0.5em; margin:0,5em;
+}
+#glasses3{
+	max-width: 90%;padding:0.5em; margin:0,5em;
+}
+#glasses4{
+	max-width: 90%;padding:0.5em; margin:0,5em;
+}
+#lens1{
+	max-width:300px; height: 120px; padding:0.5em; margin:0,5em;
+}
+#lens2{
+	max-width:300px; height: 120px; padding:0.5em; margin:0,5em;
+}
+#lens3{
+	max-width:300px; height: 120px; padding:0.5em; margin:0,5em;
+}
+#country_map{
+	max-width:300px;padding:0.5em; margin:0,5em;
+}
+#america_img{
+	max-width:200px;padding:0.5em; margin:0,5em;
+}
+#emea_img{
+	max-width:200px;padding:0.5em; margin:0,5em;
+}
+#asia_img{
+	max-width:200px;padding:0.5em; margin:0,5em;
+}
+
+
+
+
+
+/* ************************************************************************************** /*
+/*form*/
+
+form span{
+	font-weight:bold;
+}
+#comment_form{
+	color:grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ************************************************************************************** /*
+/*materialize overrides*/
+#header_row{
+	margin: 0; border:0; padding:0;
+}
+#logo_row{
+	margin: 0; border:0; padding:0;
+}
+#inner_row_header{
+	margin: 0; border:0; padding:0; height:100%;
+}
+#inner_col_header{
+    line-height:2.5em; margin-top:2em;
+}
 .row .col{
     padding: 0 !important;
+}
+#bg_image_row{
+	margin: 0; border:0; padding:0;
 }
 
 @media only screen and (max-width: 995px)
@@ -69,6 +793,3 @@ nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
     height: 64px;
     line-height: 64px;
 }
-
-
-
