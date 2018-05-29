@@ -4,13 +4,20 @@
  */
 
 *{padding:0; margin:0;font-family: 'Roboto', sans-serif; }
-
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.red_box{
+	width: 100px;
+	height: 40px;
+	background-color: red;
+}
 
 /* ************************************************************************************** /*
 /*text*/
 #lorem_ipsum1{
-	padding-right: 3em;
+	padding-right: 3em;text-align: left;
 }
 #para1{
 	padding-right: 3em;
@@ -25,13 +32,13 @@
 /*small*/
 @media only screen and (min-width: 0px){
 #para3{
-	padding: 1em; padding-left: 4em;
+	padding: 1em; padding-left: 1em;
 }
 #para4{
-	padding: 1em; padding-left: 4em;
+	padding: 1em; padding-left: 1em;
 }
 #para5{
-	padding: 1em; padding-left: 4em;
+	padding: 1em; padding-left: 1em;
 }
 #para1{
 	padding-right: 3em;
@@ -57,13 +64,13 @@
 /*large*/
 @media only screen and (min-width: 993px){
 #para3{
-	padding: 1em;
+	padding: 1em; text-align: left;
 }
 #para4{
-	padding: 1em;
+	padding: 1em;text-align: left;
 }
 #para5{
-	padding: 1em;
+	padding: 1em;text-align: left;
 }
 #para1{
 	padding-right: 3em;
@@ -85,14 +92,16 @@
 	padding-right: 3em;
 }
 #america_text{
-    position: relative; top:-120px;
+    position: relative; top:-120px; left: 0px;
 }
 #emea_text{
-	position: relative; top:-120px;
+	position: relative; top:-120px;left: 0px;
 }
+
 #asia_text{
-	position: relative; top:-120px;
+	position: relative; top:-120px;left: 0px;
 }
+
 #america_number{
 	color:#F3B315;font-size:2em;
 }
@@ -130,19 +139,22 @@
 /*Headings*/
 
 #big_logo_header{
-	font-size:4em; margin-right: 0.4em;
+	font-size:3.5em; margin-right: 0.4em; 
 }
 #second_logo_text{
-    display:inline-block; vertical-align: middle; margin-bottom:2em;
+    display:inline-block; vertical-align: middle; margin-bottom:1em;
 }
 
 #header_black_orange_border{
-	background-color: black; height: 10vh; color:white; padding:0; margin:0; border-bottom:1px solid #F3B315;
+	background-color: black; 
+	color:white; padding:0; margin:0; 
+	border-bottom:1px solid #F3B315;
+
 }
 /*small*/
 @media only screen and (min-width: 0px){
 	#headline{
-	  color:white;position: absolute; top: 15vh; left: -30vw;
+	  color:white;position: absolute; top: 15vh; left: 10vw;
 
 	}
 	#firstquote{
@@ -254,10 +266,10 @@
 	font-size:1.2em; 
 }
 #what{
-	font-size:1.9em; border-bottom: 1px solid orange; 
+	font-size:1.5em; border-bottom: 1px solid orange; 
 }
 #isprecision{
-	font-size:1.9em;
+	font-size:1.5em;
 }
 #frames_lenses_heading{
 	color:#F3B315;display:inline-block; padding-bottom:0.5em; font-size:2.5em;
@@ -326,16 +338,16 @@
 /*large*/
 @media only screen and (min-width: 993px){
 #inside_titanium{
-	color:#F3B315;font-size:2em;
+	color:#F3B315;font-size:1.5em; 
 }
 #inside_curved{
-	color:#F3B315;font-size:2em;
+	color:#F3B315;font-size:1.5em;
 }
 #inside_starvision{
-	color:#F3B315;font-size:2em;
+	color:#F3B315;font-size:1.5em;
 }
 #inside_s2{
-	color:#F3B315;font-size:2em;
+	color:#F3B315;font-size:1.5em;
 }
 }
 
@@ -350,13 +362,13 @@
 	color:#F3B315;display:inline-block; padding-bottom:0.5em; font-size:2.5em;
 }
 #lens1_heading{
-	padding-left:1em; color:#F3B315;display:inline-block;font-size:1em;
+	padding-left:1em; color:#F3B315;display:inline-block;font-size:1em;padding-top: 2em;
 }
 #lens2_heading{
-	padding-left:1em; color:#F3B315;display:inline-block;font-size:1em;
+	padding-left:1em; color:#F3B315;display:inline-block;font-size:1em;padding-top: 2em;
 }
 #lens3_heading{
-	padding-left:1em; color:#F3B315;display:inline-block;font-size:1em;
+	padding-left:1em; color:#F3B315;display:inline-block;font-size:1em;padding-top: 2em;
 }
 #select_country_heading{
 	color:#F3B315;display:inline-block; padding-bottom:0.5em; font-size:2.5em;
@@ -368,7 +380,7 @@
 	font-weight: bold;
 }
 #find_asia_heading{
-	font-weight: bold;
+	font-weight: bold; 
 }
 #find_emea_heading{
 	font-weight: bold;
@@ -380,10 +392,13 @@
 	font-size:1.9em; color:#F3B315;
 }
 #footer_heading1{
-	color:white;display:inline-block; padding-bottom:0.5em; font-size:2.5em;
+	color:white;display:inline-block; 
+	padding-bottom:0.1em; font-size:2.5em;
 }
 #footer_heading2{
-	color:white;display:inline-block; padding-bottom:0.5em; font-size:1em;
+	color:white;display:inline-block; 
+	padding-bottom:0.5em; 
+	font-size:0.7em;
 }
 .footer_span_headings{
 	font-weight:bold; color:white;
@@ -422,6 +437,13 @@ width:100vw;
 	width:100vw; margin: 0; background-color:black;
 }
 
+
+
+
+
+#read_box div img{
+	max-height: 250px;
+}
 
 
 
@@ -475,20 +497,106 @@ width:100vw;
 
 
 #find_optician1{
-	background-color:#F3B315; font-size: 1em;padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 1em; padding-right:1em;border:none
+	background-color:#F3B315; 
+	font-size: 1em;
+	padding-top: 0.5em; 
+	padding-bottom: 0.5em; 
+	padding-left: 2em; 
+	padding-right:2em;
+	border:none
 }
 #find_optician2{
-	background-color:#F3B315; font-size: 1em;padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 1em; padding-right:1em;border:none
+	background-color:#F3B315; 
+	font-size: 1em;
+	padding-top: 0.5em; 
+	padding-bottom: 0.5em; 
+	padding-left: 2em; 
+	padding-right:2em;
+	border:none
 }
+
+#find_optician1 a{
+	color: black;
+}
+
+#find_optician2 a{
+	color: black;
+}
+
 #find_america{
-	font-size: 1em;padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 1em; padding-right:1em;border:1px solid #F3B315;
+	font-size: 0.7em;
+	padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 3em; 
+	padding-right:3em;border:1px solid #F3B315;background-color: white;
 }
 #find_emea{
-	font-size: 1em;padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 1em; padding-right:1em;border:1px solid #F3B315
+	font-size: 0.7em;padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 3em; 
+	padding-right:3em;border:1px solid #F3B315;background-color: white;
 }
 #find_asia{
-	font-size: 1em;padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 1em; padding-right:1em;border:1px solid #F3B315
+	font-size: 0.7em;padding-top: 0.5em; 
+	padding-bottom: 0.5em; 
+	padding-left: 3em; 
+	padding-right:3em;
+	border:1px solid #F3B315;
+	background-color: white;
 }
+
+#find_america a{
+	color: black;
+}
+#find_emea a{
+	color: black;
+}
+#find_asia a{
+	color: black;
+}
+
+#submit{
+	background-color:#F3B315; 
+	font-size: 1em;
+	padding-top: 0.5em; 
+	padding-bottom: 0.5em; 
+	padding-left: 2em; 
+	padding-right:2em;
+	border:none;
+	width: 85%;
+}
+#submit a{
+	color: black;
+}
+
+
+
+
+
+/* ************************************************************************************** /*
+/*icons*/
+#loc_america{
+color:orange;
+position: relative; 
+top: -190px;
+left: -65px;	
+}
+
+#loc_emea{
+color:orange;
+position: relative; 
+top: -200px;
+left: 1px;	
+}
+
+#loc_asia{
+color:orange;
+position: relative; 
+top: -140px;
+left: 60px;	
+}
+
+
+
+
+
+
 
 
 
@@ -500,9 +608,49 @@ width:100vw;
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #F3B315;
+    border-top: 2px solid #F3B315;
+    margin-left: 30%;
+    width: 10%;
+}
+#branding_hr1 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #F3B315;
     margin-left: 47%;
     width: 5%;
+}
+#branding_hr2 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #F3B315;
+    margin-left: 20%;
+    width: 10%;
+}
+#branding_hr3 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #F3B315;
+    margin-left: 45%;
+    width: 8%;
+}
+#branding_hr4 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #F3B315;
+    margin-left: 15%;
+    width: 8%;
+}
+#branding_hr5 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #F3B315;
+    margin-left: 45%;
+    width: 8%;
 }
 #lenses_hr {
     display: block;
@@ -671,42 +819,73 @@ width:100vw;
 #brandimages3{
 	max-width:200px;padding:0.5em; margin:0,5em;
 }
-.row .col.s12 {
-    text-align: center;
+
 }
 /*medium*/
 @media only screen and (min-width: 601px){
 #brandimages1{
-	max-width:200px;padding:0.5em; margin:0,5em;
+	max-width:210px;padding:0.5em; margin:0.1em;
 }
 #brandimages2{
-	max-width:200px;padding:0.5em; margin:0,5em;
+	max-width:210px;padding:0.5em; margin:0.1em;
 }
 #brandimages3{
-	max-width:200px;padding:0.5em; margin:0,5em;
+	max-width:210px;padding:0.5em; margin:0.1em;
 }
-.row .col.m4 {
-    text-align: center;
-}
+
 }
 /*large*/
 @media only screen and (min-width: 993px){
 #brandimages1{
-	max-width:250px;padding:0.5em; margin:0,5em;
+	max-width:220px;padding:0.1em; margin:0,5em;
 }
 #brandimages2{
-	max-width:250px;padding:0.5em; margin:0,5em;
+	max-width:220px;padding:0.1em; margin:0,5em;
 }
 #brandimages3{
-	max-width:250px;padding:0.5em; margin:0,5em;
+	max-width:220px;padding:0.1em; margin:0,5em;
 }
-.row .col.l3 {
-    text-align: right;
+.row .col.l3 #glasses_titanium_heading{
+    text-align: left;
+}
+.row .col.l3 #glasses_curved_heading{
+    text-align: left;
+}
+.row .col.l3 #glasses_s2_heading{
+    text-align: left;
+}
+.row .col.l3 #glasses_starvision_heading{
+    text-align: left;
+}
+ .row .col.l3 #lens1_heading{
+    text-align: left;
+}
+ .row .col.l3 #lens2_heading{
+    text-align: left;
+}
+ .row .col.l3 #lens3_heading{
+    text-align: left;
 }
 }
 
+
+
+.row .col.l3 ul{
+    text-align: left;
+}
+.row .col.l4 ul{
+    text-align: left;
+}
+.row .col.l4 #footer_span_headings{
+    text-align: left;
+}
+
+
+
+
+
 #reading_image{
-	max-width: 90%;max-height: 90%;padding:0.5em; margin:0,5em;
+	padding:0.5em; margin:0,5em; 
 }
 #glasses1{
 	max-width: 90%;padding:0.5em; margin:0,5em;
@@ -721,13 +900,13 @@ width:100vw;
 	max-width: 90%;padding:0.5em; margin:0,5em;
 }
 #lens1{
-	max-width:300px; height: 120px; padding:0.5em; margin:0,5em;
+	max-width:200px; max-height: 120px; padding:0.5em; margin:0,5em;
 }
 #lens2{
-	max-width:300px; height: 120px; padding:0.5em; margin:0,5em;
+	max-width:200px; max-height: 120px; padding:0.5em; margin:0,5em;
 }
 #lens3{
-	max-width:300px; height: 120px; padding:0.5em; margin:0,5em;
+	max-width:200px; max-height: 120px; padding:0.5em; margin:0,5em;
 }
 #country_map{
 	max-width:300px;padding:0.5em; margin:0,5em;
@@ -753,16 +932,49 @@ form span{
 	font-weight:bold;
 }
 #comment_form{
-	color:grey;
+	color:grey; font-weight: normal; font-size: 0.9em;
+}
+label{
+	font-size: 1em; 
+}
+.input-field > label{
+	color: black;
+}
+.input-field.col label {
+    font-weight:bold;
+}
+
+.radiolabel{
+	color: black;
+}
+[type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:after {
+    background-color: orange;
+}
+[type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:after {
+    background-color: orange;
+}
+
+[type="radio"]:checked + span:after, 
+[type="radio"].with-gap:checked + span:before, 
+[type="radio"].with-gap:checked + span:after {
+    border: 1px solid black;
+}
+
+.select-wrapper input.select-dropdown {
+    width: 100%;
 }
 
 
+.select-wrapper input.select-dropdown {
+    color: orange;
+}
 
-
-
-
-
-
+#first_name{
+    width: 90%;
+}
+#last_name{
+	width: 90%;
+}
 
 
 
@@ -779,7 +991,7 @@ form span{
 	margin: 0; border:0; padding:0; height:100%;
 }
 #inner_col_header{
-    line-height:2.5em; margin-top:2em;
+    line-height:2.5em; margin-top:2em; margin-bottom: 1em;
 }
 .row .col{
     padding: 0 !important;
@@ -792,4 +1004,22 @@ form span{
 nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
     height: 64px;
     line-height: 64px;
+}
+
+
+
+[type="radio"]:not(:checked) + span, [type="radio"]:checked + span {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 1rem;
+    -webkit-transition: .28s ease;
+    transition: .28s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
