@@ -109,7 +109,7 @@ html, body {
 	font-weight: bold;
 }
 #emea_number{
-	color:orange;font-size:2em;
+	color:#F3B315;font-size:2em;
 }
 #emea_under_text{
 	font-weight: bold;
@@ -146,22 +146,22 @@ html, body {
 }
 
 #header_black_orange_border{
-	background-color: black; 
-	color:white; padding:0; margin:0; 
+	background-color: #1D1D1D; 
+	color:#EDEDED; padding:0; margin:0; 
 	border-bottom:1px solid #F3B315;
 
 }
 /*small*/
 @media only screen and (min-width: 0px){
 	#headline{
-	  color:white;position: absolute; top: 15vh; left: 10vw;
+	  color:#EDEDED;position: absolute; top: 15vh; left: 10vw;
 
 	}
 	#firstquote{
 		position: relative;
 		left:-40px;
 		font-size: 2em;
-		color:orange;
+		color:#F3B315;
 		display:inline-block;
 	}
 	#see_it{
@@ -188,14 +188,14 @@ html, body {
 /*medium*/
 @media only screen and (min-width: 601px){
 	#headline{
-	  color:white;position: absolute; top: 17vh; left: 0;
+	  color:#EDEDED;position: absolute; top: 17vh; left: 0;
 
 	}
 	#firstquote{
 		position: relative;
 		left:-15px;
 		font-size: 2em;
-		color:orange;
+		color:#F3B315;
 		display:inline-block;
 	}
 	#see_it{
@@ -222,14 +222,14 @@ html, body {
 /*large*/
 @media only screen and (min-width: 993px){
 	#headline{
-	  color:white;position: absolute; top: 45vh; left: 0;
+	  color:#EDEDED;position: absolute; top: 55vh; left: 0;
 
 	}
 	#firstquote{
 		position: relative;
 		left:-15px;
 		font-size: 4em;
-		color:orange;
+		color:#F3B315;
 		display:inline-block;
 	}
 	#see_it{
@@ -266,7 +266,7 @@ html, body {
 	font-size:1.2em; 
 }
 #what{
-	font-size:1.5em; border-bottom: 1px solid orange; 
+	font-size:1.5em; border-bottom: 1px solid #F3B315; 
 }
 #isprecision{
 	font-size:1.5em;
@@ -395,16 +395,16 @@ html, body {
 	font-size:1.9em; color:#F3B315;
 }
 #footer_heading1{
-	color:white;display:inline-block; 
+	color:#EDEDED;display:inline-block; 
 	padding-bottom:0.1em; font-size:2.5em;
 }
 #footer_heading2{
-	color:white;display:inline-block; 
+	color:#EDEDED;display:inline-block; 
 	padding-bottom:0.5em; 
 	font-size:0.7em;
 }
 .footer_span_headings{
-	font-weight:bold; color:white;
+	font-weight:bold; color:#EDEDED;
 }
 
 
@@ -425,7 +425,7 @@ width:100vw;
 	width:100vw; background-color:lightgrey;
 }
 #country_select{
-	width:100vw; margin: 0; background-color:black;
+	width:100vw; margin: 0; background-color:#1D1D1D;
 }
 #find_optician{
 	width:100vw;
@@ -437,7 +437,7 @@ width:100vw;
 	width:100vw; background-color:lightgrey
 }
 #footer{
-	width:100vw; margin: 0; background-color:black;
+	width:100vw; margin: 0; background-color:#1D1D1D;
 }
 
 
@@ -519,21 +519,21 @@ width:100vw;
 }
 
 #find_optician1 a{
-	color: black;
+	color: #1D1D1D;
 }
 
 #find_optician2 a{
-	color: black;
+	color: #1D1D1D;
 }
 
 #find_america{
 	font-size: 0.7em;
 	padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 3em; 
-	padding-right:3em;border:1px solid #F3B315;background-color: white;
+	padding-right:3em;border:1px solid #F3B315;background-color: #EDEDED;
 }
 #find_emea{
 	font-size: 0.7em;padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 3em; 
-	padding-right:3em;border:1px solid #F3B315;background-color: white;
+	padding-right:3em;border:1px solid #F3B315;background-color: #EDEDED;
 }
 #find_asia{
 	font-size: 0.7em;padding-top: 0.5em; 
@@ -541,17 +541,17 @@ width:100vw;
 	padding-left: 3em; 
 	padding-right:3em;
 	border:1px solid #F3B315;
-	background-color: white;
+	background-color: #EDEDED;
 }
 
 #find_america a{
-	color: black;
+	color: #1D1D1D;
 }
 #find_emea a{
-	color: black;
+	color: #1D1D1D;
 }
 #find_asia a{
-	color: black;
+	color: #1D1D1D;
 }
 
 #submit{
@@ -565,7 +565,7 @@ width:100vw;
 	width: 85%;
 }
 #submit a{
-	color: black;
+	color: #1D1D1D;
 }
 
 
@@ -575,21 +575,21 @@ width:100vw;
 /* ************************************************************************************** /*
 /*icons*/
 #loc_america{
-color:orange;
+color:#F3B315;
 position: relative; 
 top: -190px;
 left: -65px;	
 }
 
 #loc_emea{
-color:orange;
+color:#F3B315;
 position: relative; 
 top: -200px;
 left: 1px;	
 }
 
 #loc_asia{
-color:orange;
+color:#F3B315;
 position: relative; 
 top: -140px;
 left: 60px;	
@@ -628,7 +628,7 @@ left: 60px;
     height: 1px;
     border: 0;
     border-top: 2px solid #F3B315;
-    margin-left: 20%;
+    margin-left: 15%;
     width: 10%;
 }
 #branding_hr3 {
@@ -703,7 +703,7 @@ left: 60px;
  ul li a {
  	padding:0;
  	margin:0; 
- 	color:white;
+ 	color:#EDEDED;
  	padding-right:4em;
  	font-size: 0.9em;
  }
@@ -720,7 +720,7 @@ left: 60px;
  	line-height:2.5em;
  }
 #countrylist1{
-	color:white; margin-left:3em;
+	color:#EDEDED; margin-left:3em;
 }
 #UL_HEADING1{
 	font-weight:bold
@@ -903,13 +903,13 @@ left: 60px;
 	max-width: 90%;padding:0.5em;margin:0.5em;
 }
 #lens1{
-	max-width:200px; max-height: 120px; padding:0.5em; margin:0.5em;
+	max-width:170px; max-height: 120px; padding:0.5em; margin:0.5em;
 }
 #lens2{
-	max-width:200px; max-height: 120px; padding:0.5em; margin:0.5em;
+	max-width:170px; max-height: 120px; padding:0.5em; margin:0.5em;
 }
 #lens3{
-	max-width:200px; max-height: 120px; padding:0.5em; margin:0.5em;
+	max-width:170px; max-height: 120px; padding:0.5em; margin:0.5em;
 }
 #country_map{
 	max-width:300px;padding:0.5em; margin:0.5em;
@@ -941,26 +941,26 @@ label{
 	font-size: 1em; 
 }
 .input-field > label{
-	color: black;
+	color: #1D1D1D;
 }
 .input-field.col label {
     font-weight:bold;
 }
 
 .radiolabel{
-	color: black;
+	color: #1D1D1D;
 }
 [type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:after {
-    background-color: orange;
+    background-color: #F3B315;
 }
 [type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:after {
-    background-color: orange;
+    background-color: #F3B315;
 }
 
 [type="radio"]:checked + span:after, 
 [type="radio"].with-gap:checked + span:before, 
 [type="radio"].with-gap:checked + span:after {
-    border: 1px solid black;
+    border: 1px solid #1D1D1D;
 }
 
 .select-wrapper input.select-dropdown {
@@ -969,16 +969,21 @@ label{
 
 
 .select-wrapper input.select-dropdown {
-    color: orange;
+    color: #F3B315;
 }
 
 #first_name{
-    width: 90%;
+    width: 95%;
 }
 #last_name{
-	width: 90%;
+	width: 95%;
 }
-
+#email{
+	width: 95%;
+}
+#country1{
+	max-width: 40%;
+}
 
 
 

@@ -170,7 +170,7 @@
     <div class="container">
         <div class="section" id="seikoframes">
             <div class="row">
-                <div class="col s10 m8 l4 offset-m4 offset-s3 offset-l6">
+                <div class="col s10 m8 l5 offset-m4 offset-s3 offset-l6">
                     <span class="flow-text" id="seiko_frames_heading">SEIKO FRAMES</span>
                     <br>
                     <hr id="branding_hr">
@@ -324,7 +324,7 @@
             </div><!-- end row-->
 
             <div class="row">
-                <div class="col s12 m12 l10 offset-l2 center">
+                <div class=" col s10 m12 l9 center offset-l2">
                     <button id="find_optician2">FIND OPTICIAN</button>
                 </div><!-- end col-->
             </div><!-- end row-->
@@ -565,12 +565,12 @@
 
                         <div class="row">
                             <div class="input-field col s10 m5 l5 offset-s2">
-                                <input placeholder="Placeholder" id="email" type="text" class="validate" value="Email*">
+                                <input  value="Email*" id="email" type="email" class="validate">
                             </div><!-- end col-->
 
-                            <div class="input-field col s9 m5 l5 offset-s2">
+                            <div class="input-field col s9 m5 l5 offset-s2" id="country1">
                                 <select >
-                                  <option value="" selected>Country*</option>
+                                  <option value="" selected>Country<span id="red_star1">*</span></option>
                                   <option value="1">Denmark</option>
                                 </select>
                             </div><!-- end col-->
@@ -677,6 +677,9 @@
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
     <script>
+
+      
+
         document.addEventListener('DOMContentLoaded', function() {
             var elems = document.querySelectorAll('.sidenav');
             var instances = M.Sidenav.init(elems, options);
