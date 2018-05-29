@@ -391,6 +391,9 @@ html, body {
 #help_can{
 	font-size:1.9em; color:#F3B315;
 }
+#help_can1{
+	font-size:1.9em; color:#F3B315;
+}
 #footer_heading1{
 	color:white;display:inline-block; 
 	padding-bottom:0.1em; font-size:2.5em;
@@ -811,13 +814,13 @@ left: 60px;
 /*small*/
 @media only screen and (min-width: 0px){
 #brandimages1{
-	max-width:200px;padding:0.5em; margin:0,5em;
+	max-width:200px;padding:0.5em; margin:0.5em;
 }
 #brandimages2{
-	max-width:200px;padding:0.5em; margin:0,5em;
+	max-width:200px;padding:0.5em; margin:0.5em;
 }
 #brandimages3{
-	max-width:200px;padding:0.5em; margin:0,5em;
+	max-width:200px;padding:0.5em; margin:0.5em;
 }
 
 }
@@ -837,13 +840,13 @@ left: 60px;
 /*large*/
 @media only screen and (min-width: 993px){
 #brandimages1{
-	max-width:220px;padding:0.1em; margin:0,5em;
+	max-width:220px;padding:0.1em; margin:0.5em;
 }
 #brandimages2{
-	max-width:220px;padding:0.1em; margin:0,5em;
+	max-width:220px;padding:0.1em; margin:0.5em;
 }
 #brandimages3{
-	max-width:220px;padding:0.1em; margin:0,5em;
+	max-width:220px;padding:0.1em; margin:0.5em;
 }
 .row .col.l3 #glasses_titanium_heading{
     text-align: left;
@@ -885,40 +888,40 @@ left: 60px;
 
 
 #reading_image{
-	padding:0.5em; margin:0,5em; 
+	padding:0.5em; margin:0.5em; 
 }
 #glasses1{
-	max-width: 90%;padding:0.5em; margin:0,5em;
+	max-width: 90%;padding:0.5em; margin:0.5em;
 }
 #glasses2{
-	max-width: 90%;padding:0.5em; margin:0,5em;
+	max-width: 90%;padding:0.5em; margin:0.5em;
 }
 #glasses3{
-	max-width: 90%;padding:0.5em; margin:0,5em;
+	max-width: 90%;padding:0.5em; margin:0.5em;
 }
 #glasses4{
-	max-width: 90%;padding:0.5em; margin:0,5em;
+	max-width: 90%;padding:0.5em;margin:0.5em;
 }
 #lens1{
-	max-width:200px; max-height: 120px; padding:0.5em; margin:0,5em;
+	max-width:200px; max-height: 120px; padding:0.5em; margin:0.5em;
 }
 #lens2{
-	max-width:200px; max-height: 120px; padding:0.5em; margin:0,5em;
+	max-width:200px; max-height: 120px; padding:0.5em; margin:0.5em;
 }
 #lens3{
-	max-width:200px; max-height: 120px; padding:0.5em; margin:0,5em;
+	max-width:200px; max-height: 120px; padding:0.5em; margin:0.5em;
 }
 #country_map{
-	max-width:300px;padding:0.5em; margin:0,5em;
+	max-width:300px;padding:0.5em; margin:0.5em;
 }
 #america_img{
-	max-width:200px;padding:0.5em; margin:0,5em;
+	max-width:200px;padding:0.5em; margin:0.5em;
 }
 #emea_img{
-	max-width:200px;padding:0.5em; margin:0,5em;
+	max-width:200px;padding:0.5em; margin:0.5em;
 }
 #asia_img{
-	max-width:200px;padding:0.5em; margin:0,5em;
+	max-width:200px;padding:0.5em; margin:0.5em;
 }
 
 
@@ -1000,11 +1003,7 @@ label{
 	margin: 0; border:0; padding:0;
 }
 
-@media only screen and (max-width: 995px)
-nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
-    height: 64px;
-    line-height: 64px;
-}
+
 
 
 

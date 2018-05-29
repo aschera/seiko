@@ -3,19 +3,17 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
     <title>SEIKO</title>
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/materialize.css" type="text/css" rel="stylesheet"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
 </head>
 
 <body>
 
-</div>
     <div class="row" id="header_row">
         <div class="col s12 m12 l12">
             <div class="row" id="logo_row">
@@ -63,7 +61,7 @@
                             <span id="precisely">PRECISELY.</span>
                             <span id="secondquote">"</span>
                             <br><br>
-                        <button id="frames_lenses_button"><a href="#seikoframes">FRAMES & LENSES</a></button>
+                        <button id="frames_lenses_button">FRAMES & LENSES</button>
                     </div><!-- end col-->
 
               
@@ -258,7 +256,7 @@
 
             <div class="row">
                 <div class="col s10 m12 l12 center offset-l1">
-                    <button id="find_optician1"><a href="#seikoframes">FIND OPTICIAN</a></button>
+                    <button id="find_optician1">FIND OPTICIAN</button>
                 </div><!-- end col-->
             </div><!-- end row-->
         </div><!-- end <div class="section" id="brand"> -->
@@ -327,11 +325,7 @@
 
             <div class="row">
                 <div class="col s12 m12 l10 offset-l2 center">
-                    <button id="find_optician2">
-                      <a href="#seikoframes">
-                        FIND OPTICIAN
-                      </a>
-                    </button>
+                    <button id="find_optician2">FIND OPTICIAN</button>
                 </div><!-- end col-->
             </div><!-- end row-->
 
@@ -364,12 +358,12 @@
                     <div class="row">
                         <div class="col s6 m6 l3 offset-l1">
                             <ul id="countrylist1">
-                                <span id="UL_HEADING1">Americas</span>
+                                <li id="UL_HEADING1">Americas</li>
                                 <li>Brazil | Brasil</li>
                                 <li>Canada</li>
                                 <li>United States</li>
-                                <br>
-                                <span id="UL_HEADING2">Asia Pacific</span>
+                                <li>&ensp;</li>
+                                <li id="UL_HEADING2">Asia Pacific</li>
                                 <li>Australia</li>
                                 <li>China | </li>
                                 <li>Hong Kong | </li>
@@ -387,7 +381,7 @@
 
                         <div class="col s6 m6 l3 offset-l1">
                             <ul style="color:white;">
-                                <span id="UL_HEADING3">EMEA</span>
+                                <li id="UL_HEADING3">EMEA</li>
                                 <li>Austria | Österreich</li>
                                 <li>Belgium | België | Belgique</li>
                                 <li>Czech Republic | </li>
@@ -445,7 +439,7 @@
 
 <!-- Start: FIND County OPTRICIAN -->
     <div id="find_country_opt">
-        <div class="section" id="lenses">
+        <div class="section" id="find_country">
             <div class="row center">
                 <div class="col s12 m12 l3 offset-l2">
                     <span id="find_americas_heading">
@@ -455,9 +449,7 @@
                     <img src="media/map3.jpg" class="responsive-img" alt="2" id="america_img">
                     <br>
                     <button id="find_america">
-                      <a href="#seikoframes">
                         FIND
-                      </a>
                     </button>
 
                     <div id="america_text">
@@ -475,9 +467,7 @@
                     <img src="media/map3.jpg" class="responsive-img" alt="2" id="emea_img">
                     <br>
                     <button id="find_emea">
-                      <a href="#seikoframes">
                         FIND
-                      </a>
                     </button>
 
                     <div id="emea_text">
@@ -496,9 +486,7 @@
                     <img src="media/map3.jpg" class="responsive-img" alt="2" id="asia_img">
                     <br>
                     <button id="find_asia">
-                      <a href="#seikoframes">
                         FIND
-                      </a>
                     </button>
 
                     <div id="asia_text">
@@ -515,12 +503,12 @@
 <!-- END: FIND country OPTRICIAN -->
 
 <!-- Start: How can we help you -->
-    <div id="help_container"">
-        <div class="section" id="findoptrician">
+    <div id="help_container">
+        <div class="section" id="how_help">
             <div class="row align-left">
                 <div class="col s9 l4 offset-l2 offset-s3 align-left">
                   <span id="help_can">HOW CAN WE</span> <br> 
-                 <span id="help_how_heading">HELP</span><span id="help_can"> YOU?</span>
+                 <span id="help_how_heading">HELP</span><span id="help_can1"> YOU?</span>
                 </div><!-- end col-->
 
                 <div class="col s12 m6 l6">
@@ -577,12 +565,12 @@
 
                         <div class="row">
                             <div class="input-field col s10 m5 l5 offset-s2">
-                                <input placeholder="Placeholder" id="first_name" type="text" class="validate" value="Email*">
+                                <input placeholder="Placeholder" id="email" type="text" class="validate" value="Email*">
                             </div><!-- end col-->
 
                             <div class="input-field col s9 m5 l5 offset-s2">
                                 <select >
-                                  <option value="" elected>Country*</option>
+                                  <option value="" selected>Country*</option>
                                   <option value="1">Denmark</option>
                                 </select>
                             </div><!-- end col-->
@@ -601,9 +589,7 @@
                         <div class="row">
                             <div class="input-field col s10 m5 l5 offset-s2">
                               <button id="submit">
-                                <a href="#">
                                   SUBMIT
-                                </a>
                               </button>
                             </div>
                         </div>
@@ -619,7 +605,7 @@
 
 <!-- Start: FOOTER -->
     <div id="footer">
-        <div class="section" id="footer">
+        <div class="section" >
             <br><br>
             <div class="row align-left">
                 <div class="col s12 m12 l6 offset-l4 center">
@@ -649,13 +635,12 @@
                 <div class="col s12 m4 l6">
                     <div class="row">
                         <div class="col s7 m6 l2 offset-s5 offset-l1">
-                            <ul style="color:grey;">
-                              <br>
+                          <br>
                               <span class="footer_span_headings">Lorem ipsum</span>
+                             <ul style="color:grey;">
                                 <li>Malaysia</li>
                                 <li>Philippines</li>
                                 <li>Singapore</li>
-                                
                             </ul>
                             <div class="red_box">&ensp;</div>
                         </div><!-- end col-->
