@@ -4,13 +4,15 @@
  */
 
 *{padding:0; margin:0;font-family: 'Roboto', sans-serif; }
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;    
 }
 
 body{
-
+	scroll-behavior: smooth;    
 	position: relative; 
     z-index: -999; 
 }
@@ -20,8 +22,12 @@ body{
 	background-color: red;
 }
 
+
+
+
 /* ************************************************************************************** /*
 /*text*/
+
 #lorem_ipsum1{
 	padding-right: 3em;text-align: left;
 }
@@ -431,7 +437,7 @@ width:100vw;
 	width:100vw; background-color:lightgrey;
 }
 #country_select{
-	width:100vw; margin: 0; background-color:#1D1D1D;
+	width:100vw; margin: 0; background-color:#1B1B1B;
 }
 #find_optician{
 	width:100vw;
@@ -465,7 +471,10 @@ width:100vw;
 /*small*/
 @media only screen and (min-width: 0px){
 	#frames_lenses_button{
-	background-color:#F3B315;
+	background-image: url(../media/button_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-color:#F3B315;*/
 	font-size: 0.7em;
 	min-height: 30px;
 	padding-top: 0em; 
@@ -478,12 +487,25 @@ width:100vw;
 	#frames_lenses_button a{
 	color: black;
 	}
+	#frames_lenses_button a:hover{
+	color: #9F5200;
+	}
+	#frames_lenses_button:hover{
+	background-image: url(../media/button_bg_hover.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-color:#F3B315;*/
+	color: #9F5200;
+	}
 }
 
 /*medium*/
 @media only screen and (min-width: 601px){
 	#frames_lenses_button{
-	background-color:#F3B315;
+	background-image: url(../media/button_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-color:#F3B315;*/
 	font-size: 1em;
 	padding-top: 0.5em; 
 	padding-bottom: 0.5em; 
@@ -493,46 +515,91 @@ width:100vw;
 	}
 	#frames_lenses_button a{
 	color: black;
+	}
+	#frames_lenses_button a:hover{
+	color: #9F5200;
+	}
+	#frames_lenses_button:hover{
+	background-image: url(../media/button_bg_hover.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-color:#F3B315;*/
+	color: #9F5200;
 	}
 }
 
 /*large*/
 @media only screen and (min-width: 993px){
 #frames_lenses_button{
-	background-color:#F3B315;
+	background-image: url(../media/button_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-color:#F3B315;*/
 	font-size: 1em;
 	padding-top: 0.5em; 
 	padding-bottom: 0.5em; 
 	padding-left: 1em; 
 	padding-right:1em;
-	border:none
+	border:none;
+	cursor: pointer;
 	}
 	#frames_lenses_button a{
 	color: black;
+	}
+	#frames_lenses_button a:hover{
+	color: #9F5200;
+	}
+	#frames_lenses_button:hover{
+	background-image: url(../media/button_bg_hover.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-color:#F3B315;*/
+	color: #9F5200;
 	}
 }
 
 
 
 #find_optician1{
-	background-color:#F3B315; 
+	background-image: url(../media/button_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-color:#F3B315;*/
 	font-size: 1em;
 	padding-top: 0.5em; 
 	padding-bottom: 0.5em; 
 	padding-left: 2em; 
 	padding-right:2em;
-	border:none
+	border:none;
+	cursor: pointer;
+}
+#find_optician1:hover{
+	background-image: url(../media/button_bg_hover.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-color:#F3B315;*/
+	color: #9F5200;
 }
 #find_optician2{
-	background-color:#F3B315; 
+	background-image: url(../media/button_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-color:#F3B315;*/
 	font-size: 1em;
 	padding-top: 0.5em; 
 	padding-bottom: 0.5em; 
 	padding-left: 2em; 
 	padding-right:2em;
-	border:none
+	border:none;
+	cursor: pointer;
 }
-
+#find_optician2:hover{
+	background-image: url(../media/button_bg_hover.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-color:#F3B315;*/
+	color: #9F5200;
+}
 #find_optician1 a{
 	color: #1D1D1D;
 }
@@ -540,15 +607,21 @@ width:100vw;
 #find_optician2 a{
 	color: #1D1D1D;
 }
+#find_optician1 a:hover{
+	color: #9F5200;
+}
 
+#find_optician2 a:hover{
+	color: #9F5200;
+}
 #find_america{
 	font-size: 0.7em;
 	padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 3em; 
-	padding-right:3em;border:1px solid #F3B315;background-color: #EDEDED;
+	padding-right:3em;border:1px solid #F3B315;background-color: #EDEDED;cursor: pointer;
 }
 #find_emea{
 	font-size: 0.7em;padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 3em; 
-	padding-right:3em;border:1px solid #F3B315;background-color: #EDEDED;
+	padding-right:3em;border:1px solid #F3B315;background-color: #EDEDED;cursor: pointer;
 }
 #find_asia{
 	font-size: 0.7em;padding-top: 0.5em; 
@@ -557,6 +630,7 @@ width:100vw;
 	padding-right:3em;
 	border:1px solid #F3B315;
 	background-color: #EDEDED;
+	cursor: pointer;
 }
 
 #find_america a{
@@ -570,7 +644,10 @@ width:100vw;
 }
 
 #submit{
-	background-color:#F3B315; 
+	background-image: url(../media/button_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-color:#F3B315;*/
 	font-size: 1em;
 	padding-top: 0.5em; 
 	padding-bottom: 0.5em; 
@@ -578,11 +655,21 @@ width:100vw;
 	padding-right:2em;
 	border:none;
 	width: 85%;
+	cursor: pointer;
+}
+#submit:hover{
+	background-image: url(../media/button_bg_hover.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-color:#F3B315;*/
+	
 }
 #submit a{
 	color: #1D1D1D;
 }
-
+#submit a:hover{
+	color: #9F5200;
+}
 
 
 
@@ -677,6 +764,26 @@ left: 60px;
     border-top: 1px solid #F3B315;
     width: 10%;
 }
+
+
+
+
+/* ************************************************************************************** /*
+/*country-list*/
+.horizontal_line{
+ color: #F3B315;
+ display: inline;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
