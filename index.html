@@ -5,11 +5,15 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>SEIKO</title>
 
+    <script src="js/sliding.js"></script>
+
     <!-- CSS  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet"/>
     <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <link href="css/sliding.css" type="text/css" rel="stylesheet"/>
 </head>
 
 <body>
@@ -61,7 +65,7 @@
                             <span id="precisely">PRECISELY.</span>
                             <span id="secondquote">"</span>
                             <br><br>
-                        <button id="frames_lenses_button"><a href="#frames"><span>SEIKO FRAMES & LENSES</span></a></button>
+                        <button id="frames_lenses_button"><a href="#frames">SEIKO FRAMES & LENSES</a></button>
                     </div><!-- end col-->
 
               
@@ -74,7 +78,6 @@
 
 
 <br><br><br><br>
-
 
 <!-- Start: SEIKO BRAND  -->
 <section>
@@ -99,14 +102,14 @@
 
                     <div class="row">
                         <div class="col s10 m4 l2 offset-l4 offset-s6">
-                            <img src="media/1.jpg" alt="2" class="responsive-img" id="brandimages1">
+                            <img src="media/1.jpg" alt="2" class="responsive-img slideanim" id="brandimages1">
                         </div><!-- end col-->
                         <div class="col s10 m4 l2 offset-s4">
-                            <img src="media/2.jpg" alt="2" class="responsive-img" id="brandimages2">
+                            <img src="media/2.jpg" alt="2" class="responsive-img slideanim" id="brandimages2">
                         </div><!-- end col-->
 
                         <div class="col s10 m4 l2 offset-s4">
-                            <img src="media/3.jpg" alt="2" class="responsive-img" id="brandimages3">
+                            <img src="media/3.jpg" alt="2" class="responsive-img slideanim" id="brandimages3">
                         </div><!-- end col-->
                     </div><!-- end row-->
 
@@ -158,7 +161,7 @@
                 </div>
 
                 <div class="col s10 m10 l4 offset-m2 offset-s2">
-                    <img src="media/reading.jpg" class="responsive-img" alt="reading" id="reading_image">
+                    <img src="media/reading.jpg" class="responsive-img slideanim" alt="reading" id="reading_image">
                 </div><!-- end col-->
             </div><!-- end row-->
 
@@ -188,7 +191,7 @@
             <div class="row">
                 <br><br>
                 <div class="col s6 m6 l5 offset-l1">
-                    <img src="media/glasses.jpg" class="responsive-img" alt="reading" id="glasses1">
+                    <img src="media/glasses.jpg" class="responsive-img slideanim" alt="reading" id="glasses1">
                 </div><!-- end col-->
 
                 <div class="col s6 m6 l3 left-align">
@@ -216,7 +219,7 @@
                 </div><!-- end col-->
 
                 <div class="col s6 m6 l5">
-                    <img src="media/glasses.jpg" class="responsive-img" alt="reading" id="glasses2">
+                    <img src="media/glasses.jpg" class="responsive-img slideanim" alt="reading" id="glasses2">
                 </div><!-- end col-->
             </div><!-- end row-->
 
@@ -224,7 +227,7 @@
             <div class="row">
                 <br><br>
                 <div class="col s6 m6 l5 offset-l1">
-                    <img src="media/glasses.jpg" class="responsive-img" alt="reading" id="glasses3">
+                    <img src="media/glasses.jpg" class="responsive-img slideanim" alt="reading" id="glasses3">
                 </div>
                 <div class="col s6 m6 l3">
                     <div id="glasses_s2_heading">
@@ -251,7 +254,7 @@
                 </div><!-- end col-->
 
                 <div class="col s6 m6 l5">
-                    <img src="media/glasses.jpg" class="responsive-img" alt="reading" id="glasses4">
+                    <img src="media/glasses.jpg" class="responsive-img slideanim" alt="reading" id="glasses4">
                 </div><!-- end col-->
             </div><!-- end row-->
 
@@ -263,6 +266,7 @@
         </div><!-- end <div class="section" id="brand"> -->
     </div><!-- end <div class="container"> -->
 <!-- END: SEIKO FRAMES -->
+
 
 
 <!-- Start: SEIKO LENSES -->
@@ -286,7 +290,7 @@
 
             <div class="row">
                 <div class="col s10 m10 l2 offset-m1 offset-s2 offset-l4">
-                    <img src="media/lens1.gif" class="responsive-img" alt="1" id="lens1"><br>
+                    <img src="media/lens1.gif" class="responsive-img slideanim" alt="1" id="lens1"><br>
 
                     <span id="lens1_heading" class="left">
                       PROGRESSIVE & 
@@ -300,7 +304,7 @@
                 </div><!-- end col-->
 
                 <div class="col s10 m10 l2 offset-m1 offset-s2">
-                    <img src="media/lens2.gif" class="responsive-img" alt="2" id="lens2"><br>
+                    <img src="media/lens2.gif" class="responsive-img slideanim" alt="2" id="lens2"><br>
 
                     <span id="lens2_heading" class="left">
                       COMPUTER LENSES
@@ -312,7 +316,7 @@
                 </div><!-- end col-->
 
                 <div class="col s10 m10 l2 offset-m1 offset-s2">
-                    <img src="media/lens3.gif" alt="3" class="responsive-img" id="lens3"><br>
+                    <img src="media/lens3.gif" alt="3" class="responsive-img slideanim" id="lens3"><br>
 
                     <span id="lens3_heading" class="left">
                       LENS TREATMENT
@@ -447,7 +451,7 @@
                       AMERICAS
                     </span>
                     <br>
-                    <img src="media/map3.jpg" class="responsive-img" alt="2" id="america_img">
+                    <img src="media/map3.jpg" class="responsive-img slideanim" alt="2" id="america_img">
                     <br>
                     <button id="find_america">
                         FIND
@@ -465,7 +469,7 @@
                       EMEA
                     </span>
                     <br>
-                    <img src="media/map3.jpg" class="responsive-img" alt="2" id="emea_img">
+                    <img src="media/map3.jpg" class="responsive-img slideanim" alt="2" id="emea_img">
                     <br>
                     <button id="find_emea">
                         FIND
@@ -484,7 +488,7 @@
                       ASIA Pacific
                     </span>
                     <br>
-                    <img src="media/map3.jpg" class="responsive-img" alt="2" id="asia_img">
+                    <img src="media/map3.jpg" class="responsive-img slideanim" alt="2" id="asia_img">
                     <br>
                     <button id="find_asia">
                         FIND
@@ -714,6 +718,12 @@
         });
 
          $('select').material_select('destroy');
+
+
+
+
+
+
     </script>
 </body>
 </html>

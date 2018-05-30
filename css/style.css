@@ -3,6 +3,20 @@
  * orange: #F3B315   black:#1D1D1D    white:#EDEDED
  */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 *{padding:0; margin:0;font-family: 'Roboto', sans-serif; }
 
 html, body {
@@ -104,33 +118,33 @@ body{
 	padding-right: 3em;
 }
 #america_text{
-    position: relative; top:-120px; left: 0px;
+    position: relative; top:-170px; left: 0px;
 }
 #emea_text{
-	position: relative; top:-120px;left: 0px;
+	position: relative; top:-170px;left: 0px;
 }
 
 #asia_text{
-	position: relative; top:-120px;left: 0px;
+	position: relative; top:-170px;left: 0px;
 }
 
 #america_number{
-	color:#F3B315;font-size:2em;
+	color:#D4900A;font-size:2em;text-shadow: 1px 1px #FFD155;
 }
 #america_under_text{
-	font-weight: bold;
+	font-weight: bold;color: black;
 }
 #emea_number{
-	color:#F3B315;font-size:2em;
+	color:#D4900A;font-size:2em;text-shadow: 1px 1px #FFD155;
 }
 #emea_under_text{
-	font-weight: bold;
+	font-weight: bold;color: black;
 }
 #asia_number{
-	color:#F3B315;font-size:2em;
+	color:#D4900A;font-size:2em;text-shadow: 1px 1px #FFD155;
 }
 #asia_under_text{
-	font-weight: bold;
+	font-weight: bold; color: black;
 }
 
 
@@ -485,17 +499,13 @@ width:100vw;
 	border:none
 	}
 	#frames_lenses_button a{
-	color: black;
-	}
-	#frames_lenses_button a:hover{
-	color: #9F5200;
+	color: #1D1D1D ;
 	}
 	#frames_lenses_button:hover{
 	background-image: url(../media/button_bg_hover.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	/*background-color:#F3B315;*/
-	color: #9F5200;
 	}
 }
 
@@ -514,17 +524,13 @@ width:100vw;
 	border:none
 	}
 	#frames_lenses_button a{
-	color: black;
-	}
-	#frames_lenses_button a:hover{
-	color: #9F5200;
+	color: #1D1D1D;
 	}
 	#frames_lenses_button:hover{
 	background-image: url(../media/button_bg_hover.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	/*background-color:#F3B315;*/
-	color: #9F5200;
 	}
 }
 
@@ -544,18 +550,14 @@ width:100vw;
 	cursor: pointer;
 	}
 	#frames_lenses_button a{
-	color: black;
-	}
-	#frames_lenses_button a:hover{
-	color: #9F5200;
+	color: #1D1D1D ;
 	}
 	#frames_lenses_button:hover{
 	background-image: url(../media/button_bg_hover.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	/*background-color:#F3B315;*/
-	color: #9F5200;
-	}
+}
 }
 
 
@@ -564,7 +566,6 @@ width:100vw;
 	background-image: url(../media/button_bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	/*background-color:#F3B315;*/
 	font-size: 1em;
 	padding-top: 0.5em; 
 	padding-bottom: 0.5em; 
@@ -578,7 +579,7 @@ width:100vw;
 	background-size: cover;
 	background-repeat: no-repeat;
 	/*background-color:#F3B315;*/
-	color: #9F5200;
+	color: #1D1D1D ;
 }
 #find_optician2{
 	background-image: url(../media/button_bg.jpg);
@@ -598,7 +599,7 @@ width:100vw;
 	background-size: cover;
 	background-repeat: no-repeat;
 	/*background-color:#F3B315;*/
-	color: #9F5200;
+	color: #1D1D1D ;
 }
 #find_optician1 a{
 	color: #1D1D1D;
@@ -608,30 +609,72 @@ width:100vw;
 	color: #1D1D1D;
 }
 #find_optician1 a:hover{
-	color: #9F5200;
+	color: #1D1D1D ;
 }
 
 #find_optician2 a:hover{
-	color: #9F5200;
+	color: #1D1D1D ;
 }
 #find_america{
+	background-image: url(../media/find.jpg);
+	background-size: cover;
+    resize: both;
+	background-repeat: no-repeat;
+	width: 12em;
+	height: 3em;
+
 	font-size: 0.7em;
-	padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 3em; 
-	padding-right:3em;border:1px solid #F3B315;background-color: #EDEDED;cursor: pointer;
-}
-#find_emea{
-	font-size: 0.7em;padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 3em; 
-	padding-right:3em;border:1px solid #F3B315;background-color: #EDEDED;cursor: pointer;
-}
-#find_asia{
-	font-size: 0.7em;padding-top: 0.5em; 
+	padding-top: 0.5em; 
 	padding-bottom: 0.5em; 
 	padding-left: 3em; 
 	padding-right:3em;
 	border:1px solid #F3B315;
-	background-color: #EDEDED;
 	cursor: pointer;
 }
+#find_america:hover{
+	background-image: url(../media/find2.jpg);
+}
+
+#find_emea{
+	background-image: url(../media/find.jpg);
+	background-size: cover;
+    resize: both;
+	background-repeat: no-repeat;
+	width: 12em;
+	height: 3em;
+
+	font-size: 0.7em;
+	padding-top: 0.5em; 
+	padding-bottom: 0.5em; 
+	padding-left: 3em; 
+	padding-right:3em;
+	border:1px solid #F3B315;
+	cursor: pointer;
+}
+#find_emea:hover{
+background-image: url(../media/find2.jpg);
+}
+
+#find_asia{
+	background-image: url(../media/find.jpg);
+	background-size: cover;
+    resize: both;
+	background-repeat: no-repeat;
+	width: 12em;
+	height: 3em;
+
+	font-size: 0.7em;
+	padding-top: 0.5em; 
+	padding-bottom: 0.5em; 
+	padding-left: 3em; 
+	padding-right:3em;
+	border:1px solid #F3B315;
+	cursor: pointer;
+}
+#find_asia:hover{
+background-image: url(../media/find2.jpg);
+}
+
 
 #find_america a{
 	color: #1D1D1D;
@@ -677,24 +720,24 @@ width:100vw;
 /* ************************************************************************************** /*
 /*icons*/
 #loc_america{
-color:#F3B315;
+color:#D4900A;
 position: relative; 
-top: -190px;
-left: -65px;	
+top: -300px;
+left: -100px;	
 }
 
 #loc_emea{
-color:#F3B315;
+color:#D4900A;
 position: relative; 
-top: -200px;
-left: 1px;	
+top: -300px;
+left: 0px;	
 }
 
 #loc_asia{
-color:#F3B315;
+color:#D4900A;
 position: relative; 
-top: -140px;
-left: 60px;	
+top: -210px;
+left: 130px;		
 }
 
 
@@ -1057,14 +1100,53 @@ left: 60px;
 #country_map{
 	max-width:300px;padding:0.5em; margin:0.5em;
 }
+
+/*small*/
+@media only screen and (min-width: 0px){
 #america_img{
-	max-width:200px;padding:0.5em; margin:0.5em;
+	max-width:70%;padding:0.5em; margin:0.5em;
 }
 #emea_img{
-	max-width:200px;padding:0.5em; margin:0.5em;
+	max-width:70%;padding:0.5em; margin:0.5em;
 }
 #asia_img{
-	max-width:200px;padding:0.5em; margin:0.5em;
+	max-width:70%;padding:0.5em; margin:0.5em;
+}
+}
+/*medium*/
+@media only screen and (min-width: 601px){
+#america_img{
+	max-width:100%;padding:0.5em; margin:0.5em;
+}
+#emea_img{
+	max-width:100%;padding:0.5em; margin:0.5em;
+}
+#asia_img{
+	max-width:100%;padding:0.5em; margin:0.5em;
+}
+
+}
+/*large*/
+@media only screen and (min-width: 993px){
+#america_img{
+	max-width:100%;padding:0.5em; margin:0.5em;
+}
+#emea_img{
+	max-width:100%;padding:0.5em; margin:0.5em;
+}
+#asia_img{
+	max-width:100%;padding:0.5em; margin:0.5em;
+}
+}
+
+#america_img{
+	max-width:100%;padding:0.5em; margin:0.5em;
+}
+#emea_img{
+	max-width:100%;padding:0.5em; margin:0.5em;
+}
+#asia_img{
+	max-width:100%;padding:0.5em; margin:0.5em;
 }
 
 
