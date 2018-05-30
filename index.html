@@ -15,7 +15,7 @@
 <body>
 
     <div class="row" id="header_row">
-        <div class="col s12 m12 l12">
+        <div class="col s12 m12 l12" id="upper_col">
             <div class="row" id="logo_row">
                 <!-- start: header with logo -->
                 <div class="col s12 m12 l12" id="header_black_orange_border">
@@ -34,20 +34,20 @@
                 <div class="col col s12 m12 l12" id="index-banner">
                   
     <!-- start opacity menu -->
-                    <nav id="nav_desk">
-                        <div class="row">
-                            <div class="col s11 m10 l10 offset-s1 offset-m2 offset-l2 nav-wrapper container">
+                    <nav id="nav_desk" >
+                        <div class="row" id="naw_row">
+                            <div class="col s11 m10 l10 offset-s1 offset-m2 offset-l2 nav-wrapper container" id="col_menu">
                                 <ul class="left hide-on-med-and-down" id="menu_list">
                                     <li><a href="#frames"><span>SEIKO FRAMES & LENSES</span></a></li>
-                                    <li><a href="#brand"><span>SEIKO BRAND</span></a></li>
-                                    <li><a href="#"><span>SELECT COUNTRY</span></a></li>
-                                    <li><a href="#"><span>FIND OPTICIANS</span></a></li>
-                                    <li><a href="#"><span>HOW CAN WE HELP YOU</span></a></li>
+                                    <li><a href="#seiko_brand"><span>SEIKO BRAND</span></a></li>
+                                    <li><a href="#country"><span>SELECT COUNTRY</span></a></li>
+                                    <li><a href="#find_optician"><span>FIND OPTICIANS</span></a></li>
+                                    <li><a href="#help_container"><span>HOW CAN WE HELP YOU</span></a></li>
                                 </ul>
-                                <ul id="nav-mobile" class="sidenav">
+                                <ul id="nav-mobile" class="sidenav" style=" z-index:999">
                                     <li><a href="#">Navbar Link</a></li>
                                 </ul>
-                                <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+                                <a href="#" data-target="nav-mobile" class="sidenav-trigger" >
                                   <i class="material-icons">menu</i></a>
                             </div><!-- end col-->
                         </div><!-- end row-->
@@ -61,7 +61,7 @@
                             <span id="precisely">PRECISELY.</span>
                             <span id="secondquote">"</span>
                             <br><br>
-                        <button id="frames_lenses_button">FRAMES & LENSES</button>
+                        <button id="frames_lenses_button"><a href="#frames"><span>SEIKO FRAMES & LENSES</span></a></button>
                     </div><!-- end col-->
 
               
@@ -256,7 +256,7 @@
 
             <div class="row">
                 <div class="col s10 m12 l12 center offset-l1">
-                    <button id="find_optician1">FIND OPTICIAN</button>
+                    <button id="find_optician1"><a href="#find_optician"><span>FIND OPTICIANS</span></a></button>
                 </div><!-- end col-->
             </div><!-- end row-->
         </div><!-- end <div class="section" id="brand"> -->
@@ -325,7 +325,7 @@
 
             <div class="row">
                 <div class=" col s10 m12 l9 center offset-l2">
-                    <button id="find_optician2">FIND OPTICIAN</button>
+                    <button id="find_optician2"><a href="#find_optician"><span>FIND OPTICIANS</span></a></button>
                 </div><!-- end col-->
             </div><!-- end row-->
 

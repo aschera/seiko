@@ -8,6 +8,12 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+body{
+
+	position: relative; 
+    z-index: -999; 
+}
 .red_box{
 	width: 100px;
 	height: 40px;
@@ -469,6 +475,9 @@ width:100vw;
 	margin: 0;
 	border:none
 	}
+	#frames_lenses_button a{
+	color: black;
+	}
 }
 
 /*medium*/
@@ -482,6 +491,9 @@ width:100vw;
 	padding-right:1em;
 	border:none
 	}
+	#frames_lenses_button a{
+	color: black;
+	}
 }
 
 /*large*/
@@ -494,6 +506,9 @@ width:100vw;
 	padding-left: 1em; 
 	padding-right:1em;
 	border:none
+	}
+	#frames_lenses_button a{
+	color: black;
 	}
 }
 
@@ -675,22 +690,37 @@ left: 60px;
 /*small*/
 @media only screen and (min-width: 0px){
 	#nav_desk{
-	background-color: rgba(128, 128, 128, 0.1);padding:0; margin:0; max-height: 64px;z-index: 10; 
-	position: absolute; top: 0vh; left: 0;
+	background-color: rgba(128, 128, 128, 0.1);padding:0; margin:0; max-height: 64px;
+	position: relative; 
+    z-index: -999; 
+
+	top: 0vh; 
+	left: 0;
 	}
 }
 /*medium*/
 @media only screen and (min-width: 601px){
 	#nav_desk{
-	background-color: rgba(128, 128, 128, 0.1);padding:0; margin:0; max-height: 64px;z-index: 10; 
-	position: absolute; top: 0vh; left: 0;
-	}
+	background-color: rgba(128, 128, 128, 0.1);padding:0; margin:0; max-height: 64px;
+	position: relative; 
+    z-index: -999; 
+
+	top: 0vh; 
+	left: 0;
 }
 /*large*/
 @media only screen and (min-width: 993px){
 	#nav_desk{
-	background-color: rgba(128, 128, 128, 0.1);padding:0; margin:0; max-height: 40px;z-index: 10; 
-	position: absolute; top: 0vh; left: 0;
+	background-color: rgba(128, 128, 128, 0.1);
+	padding:0; 
+	margin:0; 
+	max-height: 40px;
+
+	position: relative; 
+    z-index: -999; 
+
+	top: 0vh; 
+	left: 0;
 	}
 }
 
@@ -717,7 +747,9 @@ left: 60px;
  	border-top:  1px solid #F3B315;
  }
  #menu_list{
- 	line-height:2.5em;
+ 	line-height:2.5em; 
+	position: relative; 
+    z-index: -999; 
  }
 #countrylist1{
 	color:#EDEDED; margin-left:3em;
@@ -758,10 +790,11 @@ left: 60px;
 	padding:0; 
     margin: 0;
 
-    position: relative; 
     left: 0px; 
     top: 0px; 
-    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+    
+    position: relative; 
+    z-index: -999; 
 }
 }
 /*medium*/
@@ -777,10 +810,11 @@ left: 60px;
 	padding:0; 
     margin: 0;
 
-    position: relative; 
     left: 0px; 
     top: 0px; 
-    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+    
+    position: relative; 
+    z-index: -999; 
 }
 }
 /*large*/
@@ -796,10 +830,12 @@ left: 60px;
 	padding:0; 
     margin: 0;
 
-    position: relative; 
+    
     left: 0px; 
     top: 0px; 
-    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+
+    position: relative; 
+    z-index: -999; 
 }
 }
 
@@ -989,8 +1025,17 @@ label{
 
 /* ************************************************************************************** /*
 /*materialize overrides*/
+#naw_row{
+	position: relative; z-index: -999; 
+}
+#col_menu{
+	position: relative; z-index: -999; 
+}
+#upper_col{
+	position: relative; z-index: -999; 
+}
 #header_row{
-	margin: 0; border:0; padding:0;
+	margin: 0; border:0; padding:0;     position: relative; z-index: -999; 
 }
 #logo_row{
 	margin: 0; border:0; padding:0;
@@ -1005,7 +1050,7 @@ label{
     padding: 0 !important;
 }
 #bg_image_row{
-	margin: 0; border:0; padding:0;
+	margin: 0; border:0; padding:0;    position: relative; z-index: -999; 
 }
 
 
