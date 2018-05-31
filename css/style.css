@@ -165,10 +165,11 @@ body{
 /*Headings*/
 
 #big_logo_header{
-	font-size:3.5em; margin-right: 0.4em; 
+	font-size:3.5em; margin-right: 0.4em; letter-spacing: 1px; font-weight: bold;
+	font-family: 'Playfair Display', serif;
 }
 #second_logo_text{
-    display:inline-block; vertical-align: middle; margin-bottom:1em;
+    display:inline-block; vertical-align: middle; margin-bottom:1em;letter-spacing: 1px;
 }
 
 #header_black_orange_border{
@@ -263,11 +264,13 @@ body{
 		left:-15px;
 		display:inline-block;
 		font-size: 4em; 
+		letter-spacing:1px;
 	}
 	#precisely{
 		font-size:0.5em;
 		display:inline-block;
-		font-size: 4em;
+		font-size: 5em;
+		letter-spacing:1px;
 	}
 	#secondquote{
 		position: relative;
@@ -498,7 +501,10 @@ width:100vw;
 	padding-left: 2em; 
 	padding-right:2em;
 	margin: 0;
-	border:none
+	border:none;
+	cursor: pointer;
+	font-weight: bold;
+	letter-spacing: 1px;
 	}
 	#frames_lenses_button a{
 	color: #1D1D1D ;
@@ -523,7 +529,10 @@ width:100vw;
 	padding-bottom: 0.5em; 
 	padding-left: 1em; 
 	padding-right:1em;
-	border:none
+	border:none;
+	cursor: pointer;
+	font-weight: bold;
+	letter-spacing: 1px;
 	}
 	#frames_lenses_button a{
 	color: #1D1D1D;
@@ -543,13 +552,15 @@ width:100vw;
 	background-size: cover;
 	background-repeat: no-repeat;
 	/*background-color:#F3B315;*/
-	font-size: 1em;
-	padding-top: 0.5em; 
-	padding-bottom: 0.5em; 
-	padding-left: 1em; 
-	padding-right:1em;
+	font-size: 0.8em;
+	padding-top: 0.8em; 
+	padding-bottom: 0.8em; 
+	padding-left: 2em; 
+	padding-right:2em;
 	border:none;
 	cursor: pointer;
+	font-weight: bold;
+	letter-spacing: 1px;
 	}
 	#frames_lenses_button a{
 	color: #1D1D1D ;
@@ -568,13 +579,16 @@ width:100vw;
 	background-image: url(../media/button_bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	font-size: 1em;
-	padding-top: 0.5em; 
-	padding-bottom: 0.5em; 
-	padding-left: 2em; 
-	padding-right:2em;
+	/*background-color:#F3B315;*/
+	font-size: 0.8em;
+	padding-top: 1em; 
+	padding-bottom: 1em; 
+	padding-left: 3.5em; 
+	padding-right:3.5em;
 	border:none;
 	cursor: pointer;
+	font-weight: bold;
+	letter-spacing: 1px;
 }
 #find_optician1:hover{
 	background-image: url(../media/button_bg_hover.jpg);
@@ -588,13 +602,15 @@ width:100vw;
 	background-size: cover;
 	background-repeat: no-repeat;
 	/*background-color:#F3B315;*/
-	font-size: 1em;
-	padding-top: 0.5em; 
-	padding-bottom: 0.5em; 
-	padding-left: 2em; 
-	padding-right:2em;
+	font-size: 0.8em;
+	padding-top: 1em; 
+	padding-bottom: 1em; 
+	padding-left: 3.5em; 
+	padding-right:3.5em;
 	border:none;
 	cursor: pointer;
+	font-weight: bold;
+	letter-spacing: 1px;
 }
 #find_optician2:hover{
 	background-image: url(../media/button_bg_hover.jpg);
@@ -622,16 +638,17 @@ width:100vw;
 	background-size: cover;
     resize: both;
 	background-repeat: no-repeat;
-	width: 12em;
-	height: 3em;
 
-	font-size: 0.7em;
-	padding-top: 0.5em; 
-	padding-bottom: 0.5em; 
-	padding-left: 3em; 
-	padding-right:3em;
+	font-size: 0.8em;
+	padding-top: 0.8em; 
+	padding-bottom: 0.8em;
+	padding-left: 3.5em; 
+	padding-right:3.5em;
 	border:1px solid #F3B315;
 	cursor: pointer;
+
+	font-weight: bold;
+	letter-spacing: 1px;
 }
 #find_america:hover{
 	background-image: url(../media/find2.jpg);
@@ -642,16 +659,17 @@ width:100vw;
 	background-size: cover;
     resize: both;
 	background-repeat: no-repeat;
-	width: 12em;
-	height: 3em;
 
-	font-size: 0.7em;
-	padding-top: 0.5em; 
-	padding-bottom: 0.5em; 
-	padding-left: 3em; 
-	padding-right:3em;
+	font-size: 0.8em;
+	padding-top: 0.8em; 
+	padding-bottom: 0.8em;
+	padding-left: 3.5em; 
+	padding-right:3.5em;
 	border:1px solid #F3B315;
 	cursor: pointer;
+
+	font-weight: bold;
+	letter-spacing: 1px;
 }
 #find_emea:hover{
 background-image: url(../media/find2.jpg);
@@ -662,16 +680,17 @@ background-image: url(../media/find2.jpg);
 	background-size: cover;
     resize: both;
 	background-repeat: no-repeat;
-	width: 12em;
-	height: 3em;
 
-	font-size: 0.7em;
-	padding-top: 0.5em; 
-	padding-bottom: 0.5em; 
-	padding-left: 3em; 
-	padding-right:3em;
+	font-size: 0.8em;
+	padding-top: 0.8em; 
+	padding-bottom: 0.8em;
+	padding-left: 3.5em; 
+	padding-right:3.5em;
 	border:1px solid #F3B315;
 	cursor: pointer;
+
+	font-weight: bold;
+	letter-spacing: 1px;
 }
 #find_asia:hover{
 background-image: url(../media/find2.jpg);
@@ -694,13 +713,15 @@ background-image: url(../media/find2.jpg);
 	background-repeat: no-repeat;
 	/*background-color:#F3B315;*/
 	font-size: 1em;
-	padding-top: 0.5em; 
-	padding-bottom: 0.5em; 
+	padding-top: 1em; 
+	padding-bottom: 1em; 
 	padding-left: 2em; 
 	padding-right:2em;
 	border:none;
-	width: 85%;
+	width: 75%;
 	cursor: pointer;
+	font-weight: bold;
+	letter-spacing: 1px;
 }
 #submit:hover{
 	background-image: url(../media/button_bg_hover.jpg);
@@ -887,7 +908,8 @@ left: 130px;
  	margin:0; 
  	color:#EDEDED;
  	padding-right:4em;
- 	font-size: 0.9em;
+ 	font-size: 0.8em;
+ 	letter-spacing: 1px;
  }
   ul li span{
  	display: block; height: 100%;width: 100%;
@@ -896,7 +918,7 @@ left: 130px;
  	color: #F3B315;
  }
  ul li span:hover {
- 	border-top:  1px solid #F3B315;
+ 	border-top:  2px solid #F3B315;
  }
 
 #terms{
@@ -1231,7 +1253,7 @@ form span{
 	font-weight:bold;
 }
 #comment_form{
-	color:grey; font-weight: normal; font-size: 0.9em;
+	color:#A7A7A6; font-weight: normal; font-size: 0.9em;
 }
 label{
 	font-size: 1em; 
@@ -1269,18 +1291,20 @@ label{
 }
 
 #first_name{
-    width: 95%;
+    width: 75%;
 }
 #last_name{
-	width: 95%;
+	width: 75%;
 }
 #email{
-	width: 95%;
+	width: 75%;
 }
 #country1{
 	max-width: 40%;
 }
-
+#question{
+	color:black; font-weight:normal; font-size: 0.9em;
+}
 
 
 /* ************************************************************************************** /*
