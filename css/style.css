@@ -1088,6 +1088,18 @@ left: 130px;
 #footer_links3 li{
     text-align: left;
 }
+#footer_links1 li a{
+    color: grey;
+    padding-right: 0;
+}
+#footer_links2 li a{
+    color: grey;
+    padding-right: 0;
+}
+#footer_links3 li a{
+    color: grey;
+    padding-right: 0;
+}
 
 
 #reading_image{
