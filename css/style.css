@@ -896,7 +896,7 @@ left: 130px;
  }
 
 #terms{
-	float:right; display: inline;
+	float:right; display: inline; margin-right: 1.5em;
 }
 #terms li{
 	display: inline;
@@ -1167,12 +1167,14 @@ left: 130px;
 }
 
 
-.orange_lines{
-    position: relative;
-    top: 0;
-    left: 0;
+#orange_line1{
+	max-height: 150px;
+	min-height: 100px;
 }
-
+#orange_line2{
+	max-height: 150px;
+	min-height: 100px;
+}
 
 
 
