@@ -432,8 +432,15 @@ body{
 .footer_span_headings{
 	font-weight:bold; color:#EDEDED;
 }
-
-
+#bottom_row_footer{
+	background-color: #161616; padding:1.5em; margin-bottom: 0px;
+}
+#middle_row_footer{
+	background-color: black;margin-bottom: 0px;
+}
+#top_row_footer{
+	background-color: black; margin-bottom: 0px;
+}
 
 
 
@@ -463,11 +470,8 @@ width:100vw;
 	width:100vw; background-color:lightgrey
 }
 #footer{
-	width:100vw; margin: 0; padding:0 ;background-color:#1D1D1D;
+	width:100vw; margin: 0; padding:0 ;
 }
-
-
-
 #read_box div img{
 	max-height: 250px;
 }
@@ -987,6 +991,7 @@ left: 130px;
 
    	width: 100vw;
    	height: 100vh;
+   	max-height: 100vh;
 
 	padding:0; 
     margin: 0;
