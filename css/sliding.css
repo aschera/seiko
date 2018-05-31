@@ -72,10 +72,7 @@ footer {
     padding:30px;
 }
 
-section {
-    display:block;
-    padding:60px;
-}
+
 
 .row::after {
     content: "";

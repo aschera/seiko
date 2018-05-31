@@ -43,63 +43,63 @@ body{
 /*text*/
 
 #lorem_ipsum1{
-	padding-right: 3em;text-align: left;
+	padding-right: 3em;text-align: left; color: black;
 }
 #para1{
-	padding-right: 3em;
+	padding-right: 3em;color: black;
 }
 #seiko_lenses_2nd_text{
-	margin-bottom: 2.2em; 
+	margin-bottom: 2.2em; color: black;
 }
 #para2{
-	padding-right: 3em;
+	padding-right: 3em;color: black;
 }
 
 /*small*/
 @media only screen and (min-width: 0px){
 #para3{
-	padding: 1em; padding-left: 1em;
+	padding: 1em; padding-left: 1em;color: black;
 }
 #para4{
-	padding: 1em; padding-left: 1em;
+	padding: 1em; padding-left: 1em;color: black;
 }
 #para5{
-	padding: 1em; padding-left: 1em;
+	padding: 1em; padding-left: 1em;color: black;
 }
 #para1{
-	padding-right: 3em;
+	padding-right: 3em;color: black;
 }
 }
 
 /*medium*/
 @media only screen and (min-width: 601px){
 #para3{
-	padding: 1em; 
+	padding: 1em; color: black;
 }
 #para4{
-	padding: 1em;
+	padding: 1em;color: black;
 }
 #para5{
-	padding: 1em;
+	padding: 1em;color: black;
 }
 #para1{
-	padding-right: 0em;
+	padding-right: 0em;color: black;
 }
 }
 
 /*large*/
 @media only screen and (min-width: 993px){
 #para3{
-	padding: 1em; text-align: left;
+	padding: 1em; text-align: left;color: black;
 }
 #para4{
-	padding: 1em;text-align: left;
+	padding: 1em;text-align: left;color: black;
 }
 #para5{
-	padding: 1em;text-align: left;
+	padding: 1em;text-align: left;color: black;
 }
 #para1{
-	padding-right: 3em;
+	padding-right: 3em;color: black;
 }
 }
 
@@ -109,23 +109,23 @@ body{
 
 
 #find_text{
-	margin-bottom: 2.2em; 
+	margin-bottom: 2.2em; color: black;
 }
 #para6{
-	padding-right: 3em;
+	padding-right: 3em;color: black;
 }
 #para7{
-	padding-right: 3em;
+	padding-right: 3em;color: black;
 }
 #america_text{
-    position: relative; top:-170px; left: 0px;
+    position: relative; top:-170px; left: 0px;color: black;
 }
 #emea_text{
-	position: relative; top:-170px;left: 0px;
+	position: relative; top:-170px;left: 0px;color: black;
 }
 
 #asia_text{
-	position: relative; top:-170px;left: 0px;
+	position: relative; top:-170px;left: 0px;color: black;
 }
 
 #america_number{
@@ -285,27 +285,161 @@ body{
 
 
 
-#seikobrand_heading{
-	color:#F3B315;display:inline-block; padding-bottom:0.5em; font-size:2.5em;
+/* ************************************************************************************************* */
+/* HEADINGS with lines */
+
+/*section 1 */
+#seikobrand_heading:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 2px solid #D28C00;
 }
+
+#seikobrand_heading{
+	color:#D28C00;
+	padding-top:0.5em; 
+	padding-bottom:0.5em; 
+	font-size:2.5em;
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+    margin-bottom: 0.5em;
+}
+/*section 2 */
+#frames_lenses_heading:before{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    bottom: 0;
+    left: 0%;
+    border-bottom: 2px solid #D28C00;
+}
+
+#frames_lenses_heading{
+	color:#D28C00;
+	padding-top:0.5em; 
+	padding-bottom:0.5em; 
+	font-size:2.5em;
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+    margin-bottom: 0.5em;
+}
+/*section 3 */
+#seiko_frames_heading:before{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    bottom: 0;
+    left: 40%;
+    border-bottom: 2px solid #D28C00;
+}
+
+#seiko_frames_heading{
+	color:#D28C00;
+	padding-top:0.5em; 
+	padding-bottom:0.5em; 
+	font-size:2.5em;
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+    margin-bottom: 0.5em;
+}
+/*section 4 */
+#seiko_lenses_heading:before{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    bottom: 0;
+    left: 40%;
+    border-bottom: 2px solid #D28C00;
+}
+
+#seiko_lenses_heading{
+	color:#D28C00;
+	padding-top:0.5em; 
+	padding-bottom:0.5em; 
+	font-size:2.5em;
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+    margin-bottom: 0.5em;
+}
+/*section 5 */
+#select_country_heading:before{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    bottom: 0;
+    left: 40%;
+    border-bottom: 2px solid #D28C00;
+}
+
+#select_country_heading{
+	color:#D28C00;
+	padding-top:0.5em; 
+	padding-bottom:0.5em; 
+	font-size:2.5em;
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+    margin-bottom: 0.5em;
+}
+/*section 6 */
+#find_opt_heading:before{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    bottom: 0;
+    left: 40%;
+    border-bottom: 2px solid #D28C00;
+}
+
+#find_opt_heading{
+	color:#D28C00;
+	padding-top:0.5em; 
+	padding-bottom:0.5em; 
+	font-size:2.5em;
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+    margin-bottom: 0.5em;
+}
+/* ************************************************************************************** */
+
+
+
 #below_seikobrand_heading{
 	margin-bottom: 2.2em; 
 }
 #second_heading_seiko{
-	font-size:1.2em; 
+	font-size:1.2em; color: black;
 }
 #what{
-	font-size:1.5em; border-bottom: 1px solid #F3B315; 
+	font-size:1.5em; 
+	border-bottom: 1px solid #F3B315; 
+	color: black;
 }
 #isprecision{
 	font-size:1.5em;
+	color: black;
 }
-#frames_lenses_heading{
-	color:#F3B315;display:inline-block; padding-bottom:0.5em; font-size:2.5em;
-}
-#seiko_frames_heading{
-	color:#F3B315;display:inline-block; padding-bottom:0.5em; font-size:2.5em;
-}
+
 #seiko_frames_second_heading{
 	margin-bottom: 2.2em;
 }
@@ -387,9 +521,7 @@ body{
 #glasses_s2_heading{
 	display: inline-block;vertical-align: middle;margin-top: 2em;
 }
-#seiko_lenses_heading{
-	color:#F3B315;display:inline-block; padding-bottom:0.5em; font-size:2.5em;
-}
+
 #lens1_heading{
 	padding-left:1em; color:#F3B315;display:inline-block;font-size:1em;padding-top: 2em;
 }
@@ -399,12 +531,7 @@ body{
 #lens3_heading{
 	padding-left:1em; color:#F3B315;display:inline-block;font-size:1em;padding-top: 2em;
 }
-#select_country_heading{
-	color:#F3B315;display:inline-block; padding-bottom:0.5em; font-size:2.5em;
-}
-#find_opt_heading{
-	color:#F3B315;display:inline-block; padding-bottom:0.5em; font-size:2.5em;
-}
+
 #find_americas_heading{
 	font-weight: bold;
 }
@@ -444,6 +571,16 @@ body{
 #top_row_footer{
 	background-color: black; margin-bottom: 0px;
 }
+#reading-text-box{
+	margin-top: 4.5em;
+}
+#reading-image-box{
+margin-top: 2em;
+}
+
+
+
+
 
 
 
@@ -451,6 +588,9 @@ body{
 
 /* ************************************************************************************** /*
 /*section containers*/
+section{
+	padding: 0;margin: 0;
+}
 #seiko_brand{
 width:100vw;
 }
@@ -767,89 +907,12 @@ left: 130px;
 
 
 
-
-
-
-
-
-
-/* ************************************************************************************** /*
-/*underlines*/
-#branding_hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 2px solid #F3B315;
-    margin-left: 30%;
-    width: 10%;
-}
-#branding_hr1 {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 2px solid #F3B315;
-    margin-left: 47%;
-    width: 5%;
-}
-#branding_hr2 {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 2px solid #F3B315;
-    margin-left: 15%;
-    width: 10%;
-}
-#branding_hr3 {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 2px solid #F3B315;
-    margin-left: 45%;
-    width: 8%;
-}
-#branding_hr4 {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 2px solid #F3B315;
-    margin-left: 15%;
-    width: 8%;
-}
-#branding_hr5 {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 2px solid #F3B315;
-    margin-left: 45%;
-    width: 8%;
-}
-#lenses_hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #F3B315;
-    width: 10%;
-}
-
-
-
-
 /* ************************************************************************************** /*
 /*country-list*/
 .horizontal_line{
  color: #F3B315;
  display: inline;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
