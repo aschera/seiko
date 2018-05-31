@@ -463,10 +463,8 @@ width:100vw;
 	width:100vw; background-color:lightgrey
 }
 #footer{
-	width:100vw; margin: 0; background-color:#1D1D1D;
+	width:100vw; margin: 0; padding:0 ;background-color:#1D1D1D;
 }
-
-
 
 
 
@@ -896,6 +894,19 @@ left: 130px;
  ul li span:hover {
  	border-top:  1px solid #F3B315;
  }
+
+#terms{
+	float:right; display: inline;
+}
+#terms li{
+	display: inline;
+}
+#terms li a{
+	padding-right: 0;
+}
+
+
+
  #menu_list{
  	line-height:2.5em; 
 	position: relative; 
@@ -1068,9 +1079,15 @@ left: 130px;
 .row .col.l4 #footer_span_headings{
     text-align: left;
 }
-
-
-
+#footer_links1 li{
+    text-align: left;
+}
+#footer_links2 li{
+    text-align: left;
+}
+#footer_links3 li{
+    text-align: left;
+}
 
 
 #reading_image{
@@ -1148,6 +1165,32 @@ left: 130px;
 #asia_img{
 	max-width:100%;padding:0.5em; margin:0.5em;
 }
+
+
+.orange_lines{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
