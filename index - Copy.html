@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="css/materialize.css" type="text/css" rel="stylesheet"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title></title>
+
+    <!-- CSS  -->
+    <style>
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    nav .row{
+        margin: 0; 
+        padding: 0;
+    }
+    #logo{
+        font-size:1em; 
+        margin-right: 0.4em; 
+        letter-spacing: 1px; 
+        font-weight: bold;
+    }
+    #logo_byline{
+        font-size:0.7em;
+        display:inline-block; 
+        vertical-align: middle; 
+        margin-bottom:1em;
+        letter-spacing: 1px;
+    }
+    #menu {
+        background-color: rgba(128, 128, 128, 0.5);
+        color: white;
+    }
+    </style>
+</head>
+
+<body>
+<!-- HEADER-->
+<header>
+
+
+        <div class="col l12" id="menu">
+                    <div class="row">
+                        <div class="col l2 offset-l2">
+                            
+                        </div>
+
+                        <div class="col l6">
+                            
+                        </div>
+                    </div>
+
+
+            <nav class="nav-extended">
+                <div class="nav-wrapper">
+                  <a href="#" class="brand-logo">
+                    <div id="logo">SEIKO</div>
+                  </a>
+                  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="sass.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">JavaScript</a></li>
+                  </ul>
+                </div>
+                <div class="nav-content">
+                  <ul class="tabs tabs-transparent">
+                    <li class="tab"><a href="#test1">Test 1</a></li>
+                    <li class="tab"><a class="active" href="#test2">Test 2</a></li>
+                    <li class="tab disabled"><a href="#test3">Disabled Tab</a></li>
+                    <li class="tab"><a href="#test4">Test 4</a></li>
+                  </ul>
+                </div>
+              </nav>
+
+              <ul class="sidenav" id="mobile-demo">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">JavaScript</a></li>
+              </ul>
+
+              <div id="test1" class="col s12">Test 1</div>
+              <div id="test2" class="col s12">Test 2</div>
+              <div id="test3" class="col s12">Test 3</div>
+              <div id="test4" class="col s12">Test 4</div>
+        </div>
+
+</header>
+
+<!-- Main-->
+<main>
+</main>
+
+<!-- Footer-->
+<footer>
+</footer>
+
+
+
+
+
+
+<!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script>
+
+      
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, options);
+        });
+
+        // Or with jQuery
+
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('select');
+            var instances = M.FormSelect.init(elems, options);
+        });
+
+        // Or with jQuery
+
+        $(document).ready(function() {
+            $('select').formSelect();
+        });
+
+
+        $(document).ready(function() {
+            M.updateTextFields();
+        });
+
+
+        $(document).ready(function() {
+          $('select').material_select();
+        });
+
+         $('select').material_select('destroy');
+    </script>
+</body>
+</html>
