@@ -288,7 +288,7 @@ body{
 /* ************************************************************************************************* */
 /* HEADINGS with lines */
 
-/*section 1 */
+/*section 1a */
 #seikobrand_heading:before{
     content: "";
     position: absolute;
@@ -298,7 +298,6 @@ body{
     left: 25%;
     border-bottom: 2px solid #D28C00;
 }
-
 #seikobrand_heading{
 	color:#D28C00;
 	padding-top:0.5em; 
@@ -310,6 +309,28 @@ body{
     position: relative;
     margin-bottom: 0.5em;
 }
+/*section 1b */
+#what:before{
+    content: "";
+    position: absolute;
+    width: 19%;
+    height: 1px;
+    bottom: 0;
+    left: 0%;
+    border-bottom: 2px solid #D28C00;
+}
+#what{
+	color:black;
+	padding-top:0.5em; 
+	padding-bottom:0.5em; 
+	font-size:2em;
+    font-weight: 100;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+    margin-bottom: 0.5em;
+    margin-left: 3.5em;
+}
 /*section 2 */
 #frames_lenses_heading:before{
     content: "";
@@ -320,7 +341,6 @@ body{
     left: 0%;
     border-bottom: 2px solid #D28C00;
 }
-
 #frames_lenses_heading{
 	color:#D28C00;
 	padding-top:0.5em; 
@@ -342,7 +362,6 @@ body{
     left: 40%;
     border-bottom: 2px solid #D28C00;
 }
-
 #seiko_frames_heading{
 	color:#D28C00;
 	padding-top:0.5em; 
@@ -364,7 +383,6 @@ body{
     left: 40%;
     border-bottom: 2px solid #D28C00;
 }
-
 #seiko_lenses_heading{
 	color:#D28C00;
 	padding-top:0.5em; 
@@ -386,7 +404,6 @@ body{
     left: 40%;
     border-bottom: 2px solid #D28C00;
 }
-
 #select_country_heading{
 	color:#D28C00;
 	padding-top:0.5em; 
@@ -408,7 +425,6 @@ body{
     left: 40%;
     border-bottom: 2px solid #D28C00;
 }
-
 #find_opt_heading{
 	color:#D28C00;
 	padding-top:0.5em; 
@@ -420,6 +436,28 @@ body{
     position: relative;
     margin-bottom: 0.5em;
 }
+/*section 7 */
+#help_can:before{
+    content: "";
+    position: absolute;
+    width: 22%;
+    height: 1px;
+    bottom: 0;
+    left: 0%;
+    border-bottom: 2px solid #D28C00;
+}
+#help_can{
+	color:#D28C00;
+	padding-top:0.5em; 
+	padding-bottom:0.5em; 
+	font-size:2.5em;
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+    margin-bottom: 0.5em;
+}
+
 /* ************************************************************************************** */
 
 
@@ -428,16 +466,7 @@ body{
 	margin-bottom: 2.2em; 
 }
 #second_heading_seiko{
-	font-size:1.2em; color: black;
-}
-#what{
-	font-size:1.5em; 
-	border-bottom: 1px solid #F3B315; 
-	color: black;
-}
-#isprecision{
-	font-size:1.5em;
-	color: black;
+	font-size:1.7em; color: black;
 }
 
 #seiko_frames_second_heading{
@@ -501,16 +530,16 @@ body{
 /*large*/
 @media only screen and (min-width: 993px){
 #inside_titanium{
-	color:#F3B315;font-size:1.5em; 
+	color:#D28C00;font-size:1.5em; 
 }
 #inside_curved{
-	color:#F3B315;font-size:1.5em;
+	color:#D28C00;font-size:1.5em;
 }
 #inside_starvision{
-	color:#F3B315;font-size:1.5em;
+	color:#D28C00;font-size:1.5em;
 }
 #inside_s2{
-	color:#F3B315;font-size:1.5em;
+	color:#D28C00;font-size:1.5em;
 }
 }
 
@@ -523,13 +552,13 @@ body{
 }
 
 #lens1_heading{
-	padding-left:1em; color:#F3B315;display:inline-block;font-size:1em;padding-top: 2em;
+	padding-left:1em; color:#D28C00;display:inline-block;font-size:1em;padding-top: 2em;
 }
 #lens2_heading{
-	padding-left:1em; color:#F3B315;display:inline-block;font-size:1em;padding-top: 2em;
+	padding-left:1em; color:#D28C00;display:inline-block;font-size:1em;padding-top: 2em;
 }
 #lens3_heading{
-	padding-left:1em; color:#F3B315;display:inline-block;font-size:1em;padding-top: 2em;
+	padding-left:1em; color:#D28C00;display:inline-block;font-size:1em;padding-top: 2em;
 }
 
 #find_americas_heading{
@@ -544,12 +573,7 @@ body{
 #help_how_heading{
 	font-size:1.9em; border-bottom: 1px solid #F3B315;color:#F3B315; 
 }
-#help_can{
-	font-size:1.9em; color:#F3B315;
-}
-#help_can1{
-	font-size:1.9em; color:#F3B315;
-}
+
 #footer_heading1{
 	color:#EDEDED;display:inline-block; 
 	padding-bottom:0.1em; font-size:2.5em;
@@ -978,7 +1002,7 @@ left: 130px;
  	display: block; height: 100%;width: 100%;
  }
  ul li a:hover {
- 	color: #F3B315;
+ 	color:#D28C00
  }
  ul li span:hover {
  	border-top:  2px solid #F3B315;
@@ -1127,14 +1151,25 @@ left: 130px;
 /*large*/
 @media only screen and (min-width: 993px){
 #brandimages1{
-	max-width:220px;padding:0.1em; margin:0.5em;
+	min-height: 250px;
+	min-width: 300px;
+	padding:0.1em; 
+	margin:0.5em;
 }
 #brandimages2{
-	max-width:220px;padding:0.1em; margin:0.5em;
+	min-height: 250px;
+	min-width: 300px;
+	padding:0.1em; 
+	margin:0.5em;
 }
 #brandimages3{
-	max-width:220px;padding:0.1em; margin:0.5em;
+	min-height: 250px;
+	min-width: 300px;
+	padding:0.1em; 
+	margin:0.5em;
 }
+
+
 .row .col.l3 #glasses_titanium_heading{
     text-align: left;
 }
@@ -1192,13 +1227,13 @@ left: 130px;
 }
 
 #footer_links1 li a:hover{
-    color: #F3B315;
+    color:#D28C00
 }
 #footer_links2 li a:hover{
-    color: #F3B315;
+    color:#D28C00
 }
 #footer_links3 li a:hover{
-    color: #F3B315;
+    color:#D28C00
 }
 
 #reading_image{
@@ -1332,16 +1367,16 @@ label{
 	color: #1D1D1D;
 }
 [type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:after {
-    background-color: #F3B315;
+    background-color:#D28C00;
 }
 [type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:after {
-    background-color: #F3B315;
+    background-color:#D28C00;
 }
 
 [type="radio"]:checked + span:after, 
 [type="radio"].with-gap:checked + span:before, 
 [type="radio"].with-gap:checked + span:after {
-    border: 1px solid #1D1D1D;
+    border: 1px solid #D28C00;
 }
 
 .select-wrapper input.select-dropdown {
@@ -1350,7 +1385,7 @@ label{
 
 
 .select-wrapper input.select-dropdown {
-    color: #F3B315;
+    color:#D28C00
 }
 
 #first_name{
@@ -1372,6 +1407,12 @@ label{
 
 /* ************************************************************************************** /*
 /*materialize overrides*/
+#section1a_row{
+	margin: 0; border:0; padding:0;
+}
+#section1b_row{
+	margin: 0; border:0; padding:0;
+}
 #naw_row{
 	position: relative; z-index: -999; 
 }
