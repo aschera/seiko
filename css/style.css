@@ -41,70 +41,33 @@ body{
 
 /* ************************************************************************************** /*
 /*text*/
-
+.frametexts{
+	color: black;
+	font-size: 0.9em;
+}
+.frametexts1{
+	color: black;
+	font-size: 0.9em;
+	padding-right: 2em;
+}
 #lorem_ipsum1{
-	padding-right: 3em;text-align: left; color: black;
+	padding-right: 3em;text-align: left; color: black; 
 }
 #para1{
-	padding-right: 3em;color: black;
+	padding-right: 2em;
+	color: black;
+	letter-spacing: 1px;
+	font-size: 1em;
 }
 #seiko_lenses_2nd_text{
 	margin-bottom: 2.2em; color: black;
 }
 #para2{
-	padding-right: 3em;color: black;
+	padding-right: 2em;
+	color: black;
+	letter-spacing: 1px;
+	font-size: 1em;
 }
-
-/*small*/
-@media only screen and (min-width: 0px){
-#para3{
-	padding: 1em; padding-left: 1em;color: black;
-}
-#para4{
-	padding: 1em; padding-left: 1em;color: black;
-}
-#para5{
-	padding: 1em; padding-left: 1em;color: black;
-}
-#para1{
-	padding-right: 3em;color: black;
-}
-}
-
-/*medium*/
-@media only screen and (min-width: 601px){
-#para3{
-	padding: 1em; color: black;
-}
-#para4{
-	padding: 1em;color: black;
-}
-#para5{
-	padding: 1em;color: black;
-}
-#para1{
-	padding-right: 0em;color: black;
-}
-}
-
-/*large*/
-@media only screen and (min-width: 993px){
-#para3{
-	padding: 1em; text-align: left;color: black;
-}
-#para4{
-	padding: 1em;text-align: left;color: black;
-}
-#para5{
-	padding: 1em;text-align: left;color: black;
-}
-#para1{
-	padding-right: 3em;color: black;
-}
-}
-
-
-
 
 
 
@@ -114,8 +77,11 @@ body{
 #para6{
 	padding-right: 3em;color: black;
 }
-#para7{
-	padding-right: 3em;color: black;
+.para7{
+	color: black;
+}
+.para0{
+	margin-top: 0.3em;
 }
 #america_text{
     position: relative; top:-170px; left: 0px;color: black;
@@ -551,15 +517,30 @@ body{
 	display: inline-block;vertical-align: middle;margin-top: 2em;
 }
 
-#lens1_heading{
-	padding-left:1em; color:#D28C00;display:inline-block;font-size:1em;padding-top: 2em;
+
+
+
+#lens1_heading{ 
+	color:#D28C00;
+	display:inline-block;
+	font-size:1em;
+	padding-top: 2em;
 }
 #lens2_heading{
-	padding-left:1em; color:#D28C00;display:inline-block;font-size:1em;padding-top: 2em;
+	color:#D28C00;
+	display:inline-block;
+	font-size:1em;
+	padding-top: 2em;
 }
 #lens3_heading{
-	padding-left:1em; color:#D28C00;display:inline-block;font-size:1em;padding-top: 2em;
+	color:#D28C00;
+	display:inline-block;
+	font-size:1em;
+	padding-top: 2em;
 }
+
+
+
 
 #find_americas_heading{
 	font-weight: bold;
@@ -616,10 +597,12 @@ section{
 	padding: 0;margin: 0;
 }
 #seiko_brand{
-width:100vw;
+width:100vw; margin-top: 5em;margin-bottom: 5em;
 }
 #frames_lenses{
-	width:100vw;  background-color:lightgrey;
+	width:100vw;  background-color:lightgrey; 
+	padding: 0;margin: 0; 
+	margin-top: 5em;margin-bottom: 5em;
 }
 #seiko_lenses{
 	width:100vw; background-color:lightgrey;
@@ -1251,15 +1234,26 @@ left: 130px;
 #glasses4{
 	max-width: 90%;padding:0.5em;margin:0.5em;
 }
+
+
+
 #lens1{
-	max-width:170px; max-height: 120px; padding:0.5em; margin:0.5em;
+	min-width: 150px;
+	padding-right: 2em;
 }
 #lens2{
-	max-width:170px; max-height: 120px; padding:0.5em; margin:0.5em;
+	min-width: 150px;
+	padding-right: 2em;
+
 }
 #lens3{
-	max-width:170px; max-height: 120px; padding:0.5em; margin:0.5em;
+	min-width: 150px;
+	padding-right: 2em;
 }
+
+
+
+
 #country_map{
 	max-width:300px;padding:0.5em; margin:0.5em;
 }
@@ -1405,6 +1399,22 @@ label{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ************************************************************************************** /*
 /*materialize overrides*/
 #section1a_row{
@@ -1440,10 +1450,6 @@ label{
 #bg_image_row{
 	margin: 0; border:0; padding:0;    position: relative; z-index: -999; 
 }
-
-
-
-
 
 [type="radio"]:not(:checked) + span, [type="radio"]:checked + span {
     position: relative;
